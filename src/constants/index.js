@@ -15,14 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
+    Universite_Lille,
+    centrakor,
+    Huluette,
     tripguide,
     threejs,
+    openclassrooms,
+    simplon,
   } from "../assets";
   
   export const navLinks = [
@@ -116,57 +117,79 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Formation - Développeur .NET",
+      company_name: "Simplon",
+      icon: simplon,
+      iconBg: "#ffffff",
+      date: "Nov. 2023 - Févr. 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Inititation à .NET 6(.NET 6).",
+        "Programmation Orientée Objet en C#.",
+        "Conception UML / Méthode Merise (MLD, MCD, MPD).",
+        "SQL / BackEnd REST en ASP. Net Core (Minimal API, API, MVC, Entity Framework).",
+        "Base de donnée PostgreSQL.",
+        "Initiation aux bonnes partiques / Test unitaire."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Stage - Developpeur Front-End",
+      company_name: "Huluette Design",
+      icon: Huluette,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Oct. 2023 - Nov. 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conception et dévelopement en autonomie d'un site vitre pour l'entreprise 'La Farandole'."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Formation - Developpeur Front-end",
+      company_name: "Simplon",
+      icon: simplon,
+      iconBg: "#ffffff",
+      date: "Sept. 2023 - Oct. 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Élaboration d'interfaces web dynamiques au travers de JavaScript et de ses bibliothèques REACT et Redux.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Formation - Autodidacte",
+      company_name: "OpenClassrooms / Codacademy",
+      icon: openclassrooms,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Mai 2023 - Août 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Initiation à la programmation au travers d'HTML5, CSS3, JavaScript."
       ],
     },
+    {
+      title: "CDD - Vendeur",
+      company_name: "Centrakor / Nature & Découvertes",
+      icon: centrakor,
+      iconBg: "#E6DEDD",
+      date: "Sept. 2021 - Avril 2023",
+      points: [
+        "Process de vente (observation, écoute).",
+        "Travail d'équipe.",
+        "Encaissement.",
+        "Gestion de stock.",
+        "Ouverture et clotûre du magasin."
+      ],
+    },
+    {
+      title: " M1 Spécialité European Affairs + Licence de droit, économie et gestion mention science politique",
+      company_name: "Université de Lille",
+      icon: Universite_Lille,
+      iconBg: "#E6DEDD",
+      date: "Sept. 2016 - Janv. 2021",
+      points: [
+        "Réalisation d'un mémoire sur le processus de création d'un chantier public autour de la vente d'armes françaises au Yémen.",
+        "Gestion de projet.",
+        "Droit administratif, pénal, international et européen.",
+        "Politiques publiques.",
+        "Géopolitique",
+        "Pratique de l'anglais niveau universitaire."
+      ],
+    }
   ];
   
   const testimonials = [
