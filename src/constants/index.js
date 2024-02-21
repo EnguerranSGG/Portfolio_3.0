@@ -4,17 +4,18 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    postgreSQL,
     git,
-    figma,
+    bootstrap,
+    excalidraw,
     docker,
+    CSharp,
+    Cplusbis,
+    NET,
     carrent,
     jobit,
     Universite_Lille,
@@ -70,12 +71,20 @@ import {
       icon: css,
     },
     {
+      name: "Bootstrap 5",
+      icon: bootstrap,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C#",
+      icon: CSharp,
+    },
+    {
+      name: "C++",
+      icon: Cplusbis,
     },
     {
       name: "React JS",
@@ -86,28 +95,24 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: ".NET",
+      icon: NET,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgreSQL,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Excalidraw",
+      icon: excalidraw,
     },
     {
       name: "docker",

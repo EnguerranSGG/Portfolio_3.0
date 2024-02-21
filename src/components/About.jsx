@@ -20,7 +20,7 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='intro_description'>
         Enguerran, 25 ans, ancien science politique en reconversion professionnelle depuis un an maintenant.
-        Un profil à la croisée de deux chemins.
+        Un profil à la croisée de deux chemins. Parler de mon intérêt pour C++ et C#.
       </motion.p>
 
       <motion.div variants={fadeIn("", "", 0.1, 1)} className='academic'>

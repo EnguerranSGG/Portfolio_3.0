@@ -5,6 +5,8 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
+import { SectionWrapper } from '../hoc';
+
 const Navbar = () => {
 
   const [active, setActive] = useState('');
@@ -54,4 +56,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default SectionWrapper(Navbar, "") 
