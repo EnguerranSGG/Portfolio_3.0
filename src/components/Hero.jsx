@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+import { VRHeadsetCanvas } from './canvas'
 
 import { SectionWrapper } from '../hoc'
 
@@ -15,11 +15,11 @@ const Hero = () => {
         </div>
         <div className='about_text'>
           <h1>Bonjour, je suis <span>Enguerran</span></h1>
-          <p>Un jeune développeur en quête d'alternance.</p>
+          <p>Un jeune développeur en quête d'une alternance pour sa formation de concepteur développeur d'applications.</p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <VRHeadsetCanvas />
 
     </section>
   )
