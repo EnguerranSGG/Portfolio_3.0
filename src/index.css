@@ -536,3 +536,20 @@ sectionSubText:
   font-size: 1.5vh;
   padding-left: 0.25rem;
 }
+
+/* Tech */
+
+.tech_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap : 1rem;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+.tech_card {
+  width: 7rem;
+  height: 7rem;
+}

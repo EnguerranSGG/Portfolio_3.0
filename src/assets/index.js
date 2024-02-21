@@ -8,18 +8,19 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import CSharp from "./tech/CSharp.png";
+import Cplusbis from "./tech/C++.png";
+import NET from "./tech/NET.png";
+import postgreSQL from "./tech/postgreSQL.png";
+import excalidraw from "./tech/excalidraw.png";
+import bootstrap from "./tech/bootstrap5.png";
+import docker from "./tech/docker.png";
 
 import Universite_Lille from "./company/Universite_Lille.png";
 import centrakor from "./company/centrakor.png";
@@ -42,17 +43,18 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
+  CSharp,
+  Cplusbis,
+  NET,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
   redux,
-  tailwind,
-  typescript,
   threejs,
+  bootstrap,
+  excalidraw,
+  postgreSQL,
   Universite_Lille,
   centrakor,
   openclassrooms,
