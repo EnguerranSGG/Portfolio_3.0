@@ -40,7 +40,7 @@
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
+  background: #00cea8;
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
@@ -402,9 +402,10 @@
 }
 
 .intro_sub_title {
-  color: white;
+  color: #aaa6c3;
   font-size: 3vh;
   font-weight: 700;
+  margin-top: 2vw;
 }
 
 .intro_title {
@@ -424,7 +425,6 @@
   flex-direction: row;
   align-items: center;
   gap: 1vw;
-  margin-top: 2vw;
   margin-bottom: 2vw;
 }
 
@@ -492,3 +492,47 @@ sectionSubText:
 }
 
 /* Parcours */
+
+.experience_container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience_icon_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.experience_icon {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.experience_title {
+  color: dark;
+  font-size: 2.5vh;
+  font-weight: 700;
+}
+
+.experience_company_name {
+  margin:0;
+  font-size: 2vh;
+}
+
+.experience_details {
+  list-style: circle;
+  margin-top: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+.experience_point {
+  color: white;
+  font-size: 1.5vh;
+  padding-left: 0.25rem;
+}
