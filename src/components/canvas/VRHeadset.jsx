@@ -14,7 +14,7 @@ const VRHeadset = ({ isMobile }) => {
       <spotLight position={[50, 10, 50]} angle={0.12} penumbra={2} intensity={15000} castShadow shadow-mapSize={1024} distance={100000}/>
       <primitive 
       object={vrHeadset.scene}
-      scale={ isMobile ? 30 : 40}
+      scale={ isMobile ? 20 : 30}
       position={ isMobile ? [0, -3, -2] : [0, -1, -0.5]}
       rotation={[-0.1, -0.9, -0.2]}
       />
