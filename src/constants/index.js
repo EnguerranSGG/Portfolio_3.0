@@ -30,34 +30,15 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "À propos",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Projets",
     },
     {
       id: "contact",
       title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -226,20 +207,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "La Bonne Auberge",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Site réalisé pendant ma formation de développeur .NET. Il nous a été demandé de créer un site de restaurant en ASP. Net Core MVC avec un système de back-office. ",
       tags: [
         {
-          name: "react",
+          name: "Asp.Net Core MVC",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SQLite",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
