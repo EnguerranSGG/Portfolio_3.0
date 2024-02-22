@@ -29,13 +29,13 @@ import {
       title: "À propos",
     },
     {
-      id: "work",
-      title: "Projets",
+      id: "experience",
+      title: "Parcours",
     },
     {
-      id: "contact",
-      title: "Contact",
-    },
+      id: "projects",
+      title: "Projets",
+    }
   ];
   
   const technologies = [

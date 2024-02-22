@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="projectcard">
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="projectcard" id='projects'>
       <Tilt
       option={{ max: 45, scale: 1, speed: 450 }}
       className="projectcard_container">

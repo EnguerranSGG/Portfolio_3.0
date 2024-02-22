@@ -42,7 +42,7 @@ const Experience = () => {
   return (
     <>
       <motion.div>
-        <p className='intro_sub_title'>
+        <p className='intro_sub_title' id='experience'>
           Timeline
         </p>
         <h2 className='intro_title'>
