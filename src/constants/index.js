@@ -1,8 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     html,
     css,
@@ -16,15 +12,15 @@ import {
     CSharp,
     Cplusbis,
     NET,
-    carrent,
-    jobit,
     Universite_Lille,
     centrakor,
     Huluette,
-    tripguide,
     threejs,
     openclassrooms,
     simplon,
+    LaBonneAuberge,
+    LaFarandole,
+    Portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -178,38 +174,11 @@ import {
     }
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
       name: "La Bonne Auberge",
       description:
-        "Site réalisé pendant ma formation de développeur .NET. Il nous a été demandé de créer un site de restaurant en ASP. Net Core MVC avec un système de back-office. ",
+        "Site réalisé en groupe pendant ma formation de développeur .NET. Il nous a été demandé de créer un site de restaurant en ASP. Net Core MVC avec un système de réservation, d'avis et un backoffice. Un lien vers le site est disponible sur mon Github.",
       tags: [
         {
           name: "Asp.Net Core MVC",
@@ -224,51 +193,43 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: LaBonneAuberge,
+      source_code_link: "https://github.com/EnguerranSGG/LaBonneAuberge_ES",
     },
     {
-      name: "Job IT",
+      name: "La Farandole",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Site réalisé en complète autonomie pendant mon stage en tant que développeur Front-end chez Huluette Design. Il s'agit d'un site vitrine usant de la bibliothèque REACT pour l'entreprise 'La Farandole', il est maintenant hébergé sur Hostinger. Un lien vers le site est disponible sur mon Github.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: LaFarandole,
+      source_code_link: "https://github.com/EnguerranSGG/Farandole_Project",
+    },
+    {
+      name: "Mon premier portfolio",
+      description:
+        "Il s'agit ici de mon tout premier portfolio réalisé pendant ma formation en autodidacte. Si vous voulez en savoir plus sur ma passion du dessin et des jeux vidéo, (et que vous n'avez pas peur d'avoir un peu mal aux yeux) n'hésitez pas à le visiter! Un lien vers le site est disponible sur mon Github.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        }
+      ],
+      image: Portfolio,
+      source_code_link: "https://github.com/EnguerranSGG/CV_Portfolio",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { technologies, experiences, projects };

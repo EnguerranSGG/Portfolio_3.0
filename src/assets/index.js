@@ -28,9 +28,9 @@ import openclassrooms from "./company/openclassrooms.png";
 import simplon from "./company/simplon.png";
 import Huluette from "./company/Huluette.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import LaBonneAuberge from "./LaBonneAuberge.png";
+import LaFarandole from "./LaFarandole.png";
+import Portfolio from "./Portfolio.png";
 
 export {
   logo,
@@ -60,7 +60,7 @@ export {
   openclassrooms,
   simplon,
   Huluette,
-  carrent,
-  jobit,
-  tripguide,
+  LaBonneAuberge,
+  LaFarandole,
+  Portfolio
 };
