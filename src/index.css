@@ -357,6 +357,10 @@
 
 /* About section */
 
+.vr_canvas {
+  margin-bottom: 0;
+}
+
 .about {
   position: relative;
   width: 100%;
@@ -430,6 +434,7 @@
 
 .intro_description {
   font-size: 2.5vh;
+  text-align: justify;
 }
 
 .academic {
@@ -526,7 +531,7 @@
   }
   
   .intro_description {
-    font-size: 2vh;
+    font-size: 2.2vh;
     margin-bottom: 3vh;
   }
   
@@ -543,8 +548,7 @@
   }
   
   .academic_description {
-    font-size: 2vh;
-    text-align: justify;
+    font-size: 2.2vh;
   }
   
   .active {
@@ -561,7 +565,7 @@
   }
   
   .active_description {
-    font-size: 2vh;
+    font-size: 2.2vh;
   }
   
 }
