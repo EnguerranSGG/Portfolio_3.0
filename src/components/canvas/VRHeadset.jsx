@@ -14,8 +14,8 @@ const VRHeadset = ({ isMobile, isMobileLight, isUnderHeight735, isUnderHeight690
       <spotLight position={[50, 10, 50]} angle={0.12} penumbra={2} intensity={15000} castShadow shadow-mapSize={1024} distance={100000}/>
       <primitive 
       object={vrHeadset.scene}
-      scale={ isUnderHeight330 ? 22 : isUnderHeight500 ? 18 : isUnderHeight535 ? 18 : isUnderHeight640 ? 18 : isMobileLight ? 14 : isMobile ? 14 : 30}
-      position={ isUnderHeight330 ? [0, -2.95, 0] : isUnderHeight500 ? [0, -3, 0] : isUnderHeight535 ? [0, -2.6, 0] : isUnderHeight640 ? [-0.7, -2.3, 0] : isUnderHeight690 ? [0, -1, 0] : isUnderHeight735 ? [0, -0.85, 0] : isMobileLight ? [0, -0.75, 0] : isMobile ? [0, 0, 0] : [0, -1, -0.5]}
+      scale={ isUnderHeight330 ? 22 : isUnderHeight500 ? 30 : isUnderHeight535 ? 18 : isUnderHeight640 ? 18 : isMobileLight ? 14 : isMobile ? 14 : 30}
+      position={ isUnderHeight330 ? [0, -2.95, 0] : isUnderHeight500 ? [0, -2.35, 0] : isUnderHeight535 ? [0, -2.6, 0] : isUnderHeight640 ? [-0.7, -2.3, 0] : isUnderHeight690 ? [0, -1, 0] : isUnderHeight735 ? [0, -0.85, 0] : isMobileLight ? [0, -0.75, 0] : isMobile ? [0, 0, 0] : [0, -1, -0.5]}
       rotation={[-0.1, -0.9, -0.2]}
       />
     </mesh>
@@ -104,10 +104,9 @@ const VRHeadsetCanvas = () => {
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
-      className='vr_canvas'
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
+        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2}  />
         <VRHeadset isMobile={isMobile} isMobileLight={isMobileLight} isUnderHeight735={isUnderHeight735} isUnderHeight690={isUnderHeight690} isUnderHeight640={isUnderHeight640} isUnderHeight535={isUnderHeight535} isUnderHeight500={isUnderHeight500} isUnderHeight330={isUnderHeight330} />
       </Suspense>
       <Preload all />

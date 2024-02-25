@@ -275,6 +275,58 @@
   display: none;
 }
 
+@media screen and (max-height: 590px) {
+  .no_title {
+    display: none;
+  }
+
+  .navbar_links {
+    display: none;
+  }
+
+  .navbar_logo {
+    width: 17%;
+    height: auto;
+  }
+
+  .navbar_menu {
+    display: block;
+    margin: 1%;
+  }
+
+  .no_menu {
+    display: none;
+  }
+
+  .show_menu {
+    display: block;
+    z-index: 10;
+  }
+  
+  .menu_img {
+    height: 28px;
+    width: 28px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .menu_links {
+    position: absolute;
+    list-style: none;
+    right: 0;
+    margin: 2%;
+    }
+
+  .menu_links a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(right, #e99e68, #cfa689);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   .no_title {
@@ -306,6 +358,7 @@
 
   .show_menu {
     display: block;
+    z-index: 10;
   }
 
   .menu_img {
@@ -343,6 +396,17 @@
   z-index: 0;
 }
 
+@media screen and (max-height: 590px) {
+
+.section_wrapper {
+  padding-left: 2rem; 
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+}
+
 @media screen and (max-width: 768px) {
 
 .section_wrapper {
@@ -365,7 +429,6 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  margin: auto;
 }
 
 .about_div {
@@ -498,98 +561,47 @@
 
   .about {
     position:unset;
-    height: 80vh;
-  }
-}
-
-@media screen and (max-height: 500px) {
-
-  .about {
-    position:unset;
-    height: 110vh;
-  }
-
-  .about_div {
-    padding-left: 4rem; 
-    padding-right: 4rem; 
-    top: 40px;
-  }
-
-  .about_ball {
-    width: 1rem;
-    height: 1rem;
-  }
-  
-  .about_line {
-    width: 0.15vw;
-    height: 330vh;
-  }
-
-  .about_text h1 {
-    font-size: 2rem;
-  }
-  
-  .about_text p {
-    font-size: 1rem;
-    margin-top: 1.25rem;
+    height: 130vh;
   }
 
   .intro_sub_title {
-    margin-top: 0;
+    font-size: 5vh;
   }
   
   .intro_title {
-    font-size: 4vh;
-    margin-bottom: 3vh;
+    font-size: 7vh;
   }
   
   .intro_description {
-    font-size: 2.2vh;
-    margin-bottom: 3vh;
+    font-size: 5vh;
   }
-  
-  .academic {
-    margin-bottom: 3vh;
-  }
-  
+
   .academic_title {
-    font-size: 2.5vh;
+    font-size: 6vh;
   }
-  
+
   .academic_line {
-      height: 0.5vh;  
-  }
-  
-  .academic_description {
-    font-size: 2.2vh;
-  }
-  
-  .active {
-    margin-bottom: 3vh;
-    margin-top: 3vh;
-  }
-  
-  .active_title {
-    font-size: 2.5vh;
-  }
-  
-  .active_line {
-      height: 0.5vh;  
-  }
-  
-  .active_description {
-    font-size: 2.2vh;
-  }
+    height: 1.5vh;
 }
 
-@media screen and (max-height: 330px) {
+.academic_description {
+  font-size: 5vh;
+}
 
-  .about {
-    position:unset;
-    height: 120vh;
-  }
+.active_title {
+  font-size: 6vh;
+}
+
+.active_line {
+    height: 1.5vh;
+}
+
+.active_description {
+  font-size: 5vh;
+}
 
 }
+
 
 @media screen and (max-width: 768px) {
 
@@ -737,6 +749,20 @@
   }
 }
 
+@media screen and (max-height: 590px) {
+  .experience_title {
+    font-size: 5vh;
+  }
+  
+  .experience_company_name {
+    font-size: 4vh;
+  }
+  
+  .experience_point {
+    font-size: 3vh;
+  }
+}
+
 /* Tech */
 
 .tech_container {
@@ -831,6 +857,31 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+@media screen and (max-height: 590px) {
+  .works_container {
+    margin-top : 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projectcard_title {
+    font-size: 6vh;
+  }
+  
+  .projectcard_description {
+    font-size: 5vh;
+  }
+
+  .projectcard_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.75rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
