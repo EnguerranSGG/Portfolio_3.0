@@ -329,6 +329,10 @@
 
 @media screen and (max-width: 768px) {
 
+  .navbar {
+    margin-bottom: 5vh;
+  }
+
   .no_title {
     display: none;
   }
@@ -358,7 +362,6 @@
 
   .show_menu {
     display: block;
-    z-index: 10;
   }
 
   .menu_img {
@@ -373,6 +376,7 @@
     list-style: none;
     right: 0;
     margin: 2%;
+    z-index: 10000000000;
     }
 
   .menu_links a {

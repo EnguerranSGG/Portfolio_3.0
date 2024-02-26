@@ -14,8 +14,8 @@ const VRHeadset = ({ isMobile, isMobileLight, isUnderHeight735, isUnderHeight690
       <spotLight position={[50, 10, 50]} angle={0.12} penumbra={2} intensity={15000} castShadow shadow-mapSize={1024} distance={100000}/>
       <primitive 
       object={vrHeadset.scene}
-      scale={ isUnderHeight330 ? 22 : isUnderHeight500 ? 30 : isUnderHeight535 ? 18 : isUnderHeight640 ? 18 : isMobileLight ? 14 : isMobile ? 14 : 30}
-      position={ isUnderHeight330 ? [0, -2.95, 0] : isUnderHeight500 ? [0, -2.35, 0] : isUnderHeight535 ? [0, -2.6, 0] : isUnderHeight640 ? [-0.7, -2.3, 0] : isUnderHeight690 ? [0, -1, 0] : isUnderHeight735 ? [0, -0.85, 0] : isMobileLight ? [0, -0.75, 0] : isMobile ? [0, 0, 0] : [0, -1, -0.5]}
+      scale={ isUnderHeight330 ? 22 : isUnderHeight500 ? 30 : isUnderHeight535 ? 18 : isUnderHeight640 ? 18 : isMobileLight ? 13 : isMobile ? 13 : 30}
+      position={ isUnderHeight330 ? [0, -2.95, 0] : isUnderHeight500 ? [0, -2.35, 0] : isUnderHeight535 ? [0, -2.6, 0] : isUnderHeight640 ? [0.1, -2.3, 0] : isUnderHeight690 ? [0, -1, 0] : isUnderHeight735 ? [0, -0.85, 0] : isMobileLight ? [0, -0.75, 0] : isMobile ? [0, 0, 0] : [0, -1, -0.5]}
       rotation={[-0.1, -0.9, -0.2]}
       />
     </mesh>
