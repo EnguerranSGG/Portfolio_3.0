@@ -7,6 +7,7 @@ import { SectionWrapper } from '../hoc'
 
 const Hero = () => {
   return (
+    <>
     <section className="about">
       <div className='about_div'>
         <div className='about_features'>
@@ -19,9 +20,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <VRHeadsetCanvas />
-
     </section>
+    <section className="vr_headset">
+    <VRHeadsetCanvas />
+    </section>
+    </>
   )
 }
 
