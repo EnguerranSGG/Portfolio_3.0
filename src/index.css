@@ -275,6 +275,24 @@
   display: none;
 }
 
+.menu_links a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background: -webkit-linear-gradient(right, #e99e68, #cfa689);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.menu_links a:hover {
+  scale: 1.1;
+  background: -webkit-linear-gradient(left, #e99e68, #cfa689);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
 @media screen and (max-height: 590px) {
   .no_title {
     display: none;
@@ -325,14 +343,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease;
-  }
-
-  .menu_links a:hover {
-    scale: 1.2;
-    background: -webkit-linear-gradient(left, #e99e68, #cfa689);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: pointer;
   }
 }
 
@@ -389,13 +399,9 @@
     }
 
   .menu_links a {
-    display: inline-block;
-    text-decoration: none;
     font-size: 1rem;
-    background: -webkit-linear-gradient(right, #e99e68, #cfa689);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
+
 }
 
 /* End of Navbar */
