@@ -1282,3 +1282,23 @@
   height: 100vh;
   z-index: -1;
 }
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer i {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+footer i:hover {
+  scale: 1.2;
+}
