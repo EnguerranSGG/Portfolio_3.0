@@ -1,8 +1,4 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -32,12 +28,13 @@ import LaBonneAuberge from "./LaBonneAuberge.png";
 import LaFarandole from "./LaFarandole.png";
 import Portfolio from "./Portfolio.png";
 
+import Lovecraft from "./lovecraft_cthulhu.jpg";
+import EldenTree from "./EldenTree.avif";
+import Evangelion from "./end-evangelion.jpg";
+import Paysage from "./dessin_paysage1.avif";
+
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
@@ -62,5 +59,9 @@ export {
   Huluette,
   LaBonneAuberge,
   LaFarandole,
-  Portfolio
+  Portfolio,
+  Lovecraft,
+  EldenTree,
+  Evangelion,
+  Paysage
 };

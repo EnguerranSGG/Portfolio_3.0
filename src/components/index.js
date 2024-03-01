@@ -6,6 +6,7 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
 import Footer from './Footer';
+import Passions from './Passions';
 
 export {
   Hero,
@@ -14,6 +15,7 @@ export {
   Tech,
   Experience,
   Works,
+  Passions,
   EarthCanvas, 
   BallCanvas, 
   VRHeadsetCanvas, 

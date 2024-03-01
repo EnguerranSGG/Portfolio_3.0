@@ -1,0 +1,206 @@
+ @media screen and (orientation: landscape) {
+     .passions_wrapper {
+         width: 100%;
+         height: 80vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 6vh;
+     }
+
+     .passions_container {
+         width: 100%;
+         height: 100%;
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: start;
+         gap: 0.75rem;
+     }
+
+     .passion_card {
+         width: 10%;
+         border-radius: 0.75rem;
+         background-size: cover;
+         cursor: pointer;
+         overflow: hidden;
+         border-radius: 2rem;
+         display: flex;
+         align-items: flex-end;
+         transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+         box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+     }
+
+     .card .row {
+         color: white;
+         display: flex;
+         flex-wrap: nowrap;
+     }
+
+     .passion_card .row .passion_description {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         overflow: hidden;
+         height: 20vh;
+         opacity: 0;
+         transform: translateY(30px);
+         transition-delay: 0.3s;
+         transition: all 0.3s ease;
+     }
+
+     .passion_description {
+         padding-left: 1%;
+         text-shadow: 1px 1px 2px black;
+     }
+
+     .passion_description p {
+         color: white;
+         padding-top: 5px;
+     }
+
+     .passion_description h4 {
+         text-transform: uppercase;
+     }
+
+     input {
+         display: none;
+     }
+
+     input:checked+label {
+         width: 70%;
+     }
+
+     input:checked+label .passion_description {
+         opacity: 1 !important;
+         transform: translateY(0) !important;
+     }
+
+     .passion_card[for="passion1"] {
+         background-image: url("../assets/lovecraft_cthulhu.jpg");
+     }
+
+     .passion_card[for="passion2"] {
+         background-image: url("../assets/dessin_paysage1.avif");
+     }
+
+     .passion_card[for="passion3"] {
+         background-image: url("../assets/EldenTree.avif");
+     }
+
+     .passion_card[for="passion4"] {
+         background-image: url("../assets/end-evangelion.jpg");
+     }
+ }
+
+ @media screen and (orientation: landscape) and (max-height: 500px) {
+     .passion_description {
+         padding-left: 3%;
+         padding-bottom: 3%;
+         text-shadow: 1px 1px 2px black;
+     }
+
+     .passion_card .row .passion_description {
+         height: 30vh;
+     }
+ }
+
+ @media screen and (orientation: portrait) {
+
+     .passions_wrapper {
+         width: 100%;
+         height: 80vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 6vh;
+     }
+
+     .passions_container {
+         width: 100%;
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: start;
+         gap: 0.75rem;
+     }
+
+     .passion_card {
+         width: 100%;
+         height: 10%;
+         border-radius: 0.75rem;
+         background-size: cover;
+         cursor: pointer;
+         overflow: hidden;
+         border-radius: 2rem;
+         display: flex;
+         align-items: flex-end;
+         transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+         box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+     }
+
+     .card .row {
+         color: white;
+         display: flex;
+         flex-wrap: nowrap;
+     }
+
+     .passion_card .row .passion_description {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         overflow: hidden;
+         opacity: 0;
+         height: 15vh;
+         transform: translateX(30px);
+         transition-delay: 0.3s;
+         transition: all 0.3s ease;
+     }
+
+     .passion_description {
+         padding-left: 3%;
+         padding-bottom: 1%;
+         text-shadow: 1px 1px 2px black;
+     }
+
+
+
+     .passion_description p {
+         color: white;
+         padding-top: 5px;
+     }
+
+     .passion_description h4 {
+         text-transform: uppercase;
+     }
+
+     input {
+         display: none;
+     }
+
+     input:checked+label {
+         height: 70%;
+         width: 100%;
+     }
+
+     input:checked+label .passion_description {
+         opacity: 1 !important;
+         transform: translateX(0) !important;
+     }
+
+     .passion_card[for="passion1"] {
+        background-image: url("../assets/lovecraft_cthulhu.jpg");
+    }
+
+    .passion_card[for="passion2"] {
+        background-image: url("../assets/dessin_paysage1.avif");
+    }
+
+    .passion_card[for="passion3"] {
+        background-image: url("../assets/EldenTree.avif");
+    }
+
+    .passion_card[for="passion4"] {
+        background-image: url("../assets/end-evangelion.jpg");
+    }
+
+ }
