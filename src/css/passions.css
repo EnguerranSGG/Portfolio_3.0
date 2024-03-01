@@ -188,19 +188,19 @@
      }
 
      .passion_card[for="passion1"] {
-        background-image: url("../assets/lovecraft_cthulhu.jpg");
+        background-image: url("../assets/lovecraft_cthulhu.avif"), url("../assets/lovecraft_cthulhu.jpg");
     }
 
     .passion_card[for="passion2"] {
-        background-image: url("../assets/dessin_paysage1.avif");
+        background-image: url("../assets/dessin_paysage1.avif"), url("../assets/dessin_paysage.jpg");
     }
 
     .passion_card[for="passion3"] {
-        background-image: url("../assets/EldenTree.avif");
+        background-image: url("../assets/EldenTree.avif"), url("../assets/EldenTree.jpg");
     }
 
     .passion_card[for="passion4"] {
-        background-image: url("../assets/end-evangelion.jpg");
+        background-image: url("../assets/end-evangelion.avif"), url("../assets/end-evangelion.jpg");
     }
 
  }

@@ -29,9 +29,15 @@ import LaFarandole from "./LaFarandole.png";
 import Portfolio from "./Portfolio.png";
 
 import Lovecraft from "./lovecraft_cthulhu.jpg";
-import EldenTree from "./EldenTree.avif";
 import Evangelion from "./end-evangelion.jpg";
-import Paysage from "./dessin_paysage1.avif";
+import EldenTree from "./EldenTree.jpg";
+import Paysage from "./dessin_paysage.jpg";
+
+import LovecraftAVIF from "./lovecraft_cthulhu.avif";
+import EvangelionAVIF from "./end-evangelion.avif";
+import EldenTreeAVIF from "./EldenTree.avif";
+import PaysageAVIF from "./dessin_paysage1.avif";
+
 
 export {
   logo,
@@ -63,5 +69,9 @@ export {
   Lovecraft,
   EldenTree,
   Evangelion,
-  Paysage
+  Paysage,
+  LovecraftAVIF,
+  EvangelionAVIF,
+  EldenTreeAVIF,
+  PaysageAVIF
 };
