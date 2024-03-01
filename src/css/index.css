@@ -1129,6 +1129,7 @@
   margin-top : 2rem;
   display: flex;
   gap : 2rem;
+  margin-bottom: 6vh;
 }
 
 .projectcard {

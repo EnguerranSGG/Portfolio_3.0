@@ -28,6 +28,11 @@ import LaBonneAuberge from "./LaBonneAuberge.png";
 import LaFarandole from "./LaFarandole.png";
 import Portfolio from "./Portfolio.png";
 
+import Lovecraft from "./lovecraft_cthulhu.jpg";
+import EldenTree from "./EldenTree.avif";
+import Evangelion from "./end-evangelion.jpg";
+import Paysage from "./dessin_paysage1.avif";
+
 export {
   logo,
   github,
@@ -54,5 +59,9 @@ export {
   Huluette,
   LaBonneAuberge,
   LaFarandole,
-  Portfolio
+  Portfolio,
+  Lovecraft,
+  EldenTree,
+  Evangelion,
+  Paysage
 };
