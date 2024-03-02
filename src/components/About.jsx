@@ -17,7 +17,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='intro_description'>
-        Ancien "science politiste" de 25 ans, cela va bientôt faire un an maintenant que je me suis reconverti en tant
+        Ancien "science politiste" de 25 ans, cela va bientôt faire un an maintenant que je me suis reconvertis en tant que
         développeur. Ce qui m'a tout de suite plu dans ce secteur ? Son champ des possibles et sa transversalité !<br /><br />
       </motion.p>
 
@@ -37,7 +37,7 @@ const About = () => {
         sens de l'organisation et de la rigueur ! <br /><br />
         En plus des savoirs et compétences académiques, au fil des années, j'ai eu l'occasion de participer à de
         nombreux travaux de groupe et projets. Ils m'ont permis de gagner une expérience notoire dans la gestion de projet.
-        Expérience que j'aspire consolider et concrétiser à l'avenir.
+        Expérience que j'aspire à consolider et concrétiser à l'avenir.
 
 
       </motion.p>
@@ -52,10 +52,10 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='active_description'>
         Après ma période d'apprentissage en autodidacte, lorsque j'eus envie de passer aux choses sérieuses, je rejoignis
         le centre de formation Simplon. Le fait d'avoir toujours travaillé sur des projets
-        concrêts avec leur deadline et une grande autonomie m'a fait gagner en confiance et en débrouillardise, compétences
+        concrêts avec des délais impartis et une grande autonomie m'a fait gagner en confiance et en débrouillardise, compétences
         essentielles pour un développeur. <br /><br />
         Maintenant, je n'aspire plus qu'à une seule chose, poursuivre mon apprentissage. Acquérir un socle de connaissances
-        encore plus solides avant de me spécialiser. Je porte notamment un grand intêret pour les technologies de réalité
+        encore plus solide avant de me spécialiser. Je porte notamment un grand intérêt aux technologies de réalité
         augmentée et de réalité virtuelle, c'est pourquoi j'ai commencé à apprendre C# et C++.
       </motion.p>
 

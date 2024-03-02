@@ -17,7 +17,7 @@ const Passions = () => {
             </motion.div>
 
             <motion.p variants={fadeIn("", "", 0.1, 1)} className='intro_description'>
-                Pour conclure cette présentation, voici quelques-unes de mes passions.
+                Pour conclure cette présentation, outre la programmation, voici quelques-unes de mes passions.
             </motion.p>
 
             <div className='passions_wrapper'>

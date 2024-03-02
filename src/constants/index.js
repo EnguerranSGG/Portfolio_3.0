@@ -110,7 +110,7 @@ import {
         "Conception UML / Méthode Merise (MLD, MCD, MPD).",
         "SQL / BackEnd REST en ASP. Net Core (Minimal API, API, MVC, Entity Framework).",
         "Base de donnée PostgreSQL.",
-        "Initiation aux bonnes partiques / Test unitaire."
+        "Initiation aux bonnes pratiques / Test unitaire."
       ],
     },
     {
@@ -120,7 +120,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Oct. 2023 - Nov. 2023",
       points: [
-        "Conception et dévelopement en autonomie d'un site vitre pour l'entreprise 'La Farandole'."
+        "Conception et dévelopement en autonomie d'un site vitrine pour l'entreprise 'La Farandole'."
       ],
     },
     {
@@ -164,7 +164,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Sept. 2016 - Janv. 2021",
       points: [
-        "Réalisation d'un mémoire sur le processus de création d'un chantier public autour de la vente d'armes françaises au Yémen.",
+        "Réalisation d'un mémoire sur le processus de création d'un chantier public autour de la vente d'armes françaises dans le cadre du conflit Yémenite.",
         "Gestion de projet.",
         "Droit administratif, pénal, international et européen.",
         "Politiques publiques.",

@@ -57,8 +57,8 @@ const Works = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='intro_description'>
-        Vous trouverez-ici une parties des projets
-        auxquels j'ai contribué en seul ou en groupe ;
+        Vous trouverez-ici une partie des projets
+        auxquels j'ai contribué seul ou en groupe ;
         qu'ils soient personnels ou réalisés durant
         une formation.
       </motion.p>
