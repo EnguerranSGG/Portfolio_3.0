@@ -24,19 +24,19 @@ import openclassrooms from "./company/openclassrooms.png";
 import simplon from "./company/simplon.png";
 import Huluette from "./company/Huluette.png";
 
-import LaBonneAuberge from "./LaBonneAuberge.png";
-import LaFarandole from "./LaFarandole.png";
-import Portfolio from "./Portfolio.png";
+import LaBonneAuberge from "./project/LaBonneAuberge.png";
+import LaFarandole from "./project/LaFarandole.png";
+import Portfolio from "./project/Portfolio.png";
 
-import Lovecraft from "./lovecraft_cthulhu.jpg";
-import Evangelion from "./end-evangelion.jpg";
-import EldenTree from "./EldenTree.jpg";
-import Paysage from "./dessin_paysage.jpg";
+import Lovecraft from "./passion/lovecraft_cthulhu.jpg";
+import Evangelion from "./passion/end-evangelion.jpg";
+import EldenTree from "./passion/EldenTree.jpg";
+import Paysage from "./passion/dessin_paysage.jpg";
 
-import LovecraftAVIF from "./lovecraft_cthulhu.avif";
-import EvangelionAVIF from "./end-evangelion.avif";
-import EldenTreeAVIF from "./EldenTree.avif";
-import PaysageAVIF from "./dessin_paysage1.avif";
+import LovecraftAVIF from "./passion/lovecraft_cthulhu.avif";
+import EvangelionAVIF from "./passion/end-evangelion.avif";
+import EldenTreeAVIF from "./passion/EldenTree.avif";
+import PaysageAVIF from "./passion/dessin_paysage1.avif";
 
 
 export {

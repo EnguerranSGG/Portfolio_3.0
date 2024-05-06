@@ -76,19 +76,19 @@
      }
 
      .passion_card[for="passion1"] {
-         background-image: url("../assets/lovecraft_cthulhu.jpg");
+         background-image: url("../assets/passion/lovecraft_cthulhu.avif"), url("../assets/passion/lovecraft_cthulhu.jpg");
      }
 
      .passion_card[for="passion2"] {
-         background-image: url("../assets/dessin_paysage1.avif");
+         background-image: url("../assets/passion/dessin_paysage1.avif"), url("../assets/passion/dessin_paysage.jpg");
      }
 
      .passion_card[for="passion3"] {
-         background-image: url("../assets/EldenTree.avif");
+         background-image: url("../assets/passion/EldenTree.avif"), url("../assets/passion/EldenTree.jpg");
      }
 
      .passion_card[for="passion4"] {
-         background-image: url("../assets/end-evangelion.jpg");
+         background-image: url("../assets/passion/end-evangelion.avif"), url("../assets/passion/end-evangelion.jpg");
      }
  }
 
@@ -186,21 +186,5 @@
          opacity: 1 !important;
          transform: translateX(0) !important;
      }
-
-     .passion_card[for="passion1"] {
-        background-image: url("../assets/lovecraft_cthulhu.avif"), url("../assets/lovecraft_cthulhu.jpg");
-    }
-
-    .passion_card[for="passion2"] {
-        background-image: url("../assets/dessin_paysage1.avif"), url("../assets/dessin_paysage.jpg");
-    }
-
-    .passion_card[for="passion3"] {
-        background-image: url("../assets/EldenTree.avif"), url("../assets/EldenTree.jpg");
-    }
-
-    .passion_card[for="passion4"] {
-        background-image: url("../assets/end-evangelion.avif"), url("../assets/end-evangelion.jpg");
-    }
 
  }
