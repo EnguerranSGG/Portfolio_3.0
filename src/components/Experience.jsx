@@ -15,7 +15,7 @@ const ExperienceCard = ({ experience }) => (
     iconStyle={{ background: experience.iconBg }}
     icon={
     <div className='experience_icon_container'>
-      <img src={experience.icon} alt={experience.company_name} className='experience_icon' />
+      <img src={experience.iconAVIF} onError={e => e.currentTarget.src = `${experience.icon}`} alt={experience.company_name} className='experience_icon' />
     </div>}>
     <div>
       <h3 className='experience_title'>{experience.title}</h3>

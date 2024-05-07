@@ -10,7 +10,7 @@ const Tech = () => {
     <div className='tech_container'>
       {technologies.map((technology) => (
         <div className='tech_card' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
+          <BallCanvas icon={technology.iconAVIF} onError={e => e.currentTarget.icon = `${technology.icon}`} />
         </div>
       ))}
     </div>
