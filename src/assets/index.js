@@ -19,9 +19,9 @@ import bootstrap from "./tech/bootstrap5.png";
 import docker from "./tech/docker.png";
 
 import Universite_Lille from "./company/Universite_Lille.png";
-import centrakor from "./company/centrakor.png";
-import openclassrooms from "./company/openclassrooms.png";
-import simplon from "./company/simplon.png";
+import centrakor from "./company/Centrakor.png";
+import openclassrooms from "./company/Openclassrooms.png";
+import simplon from "./company/Simplon.png";
 import Huluette from "./company/Huluette.png";
 
 import LaBonneAuberge from "./project/LaBonneAuberge.png";
