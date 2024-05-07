@@ -13,6 +13,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  imageAVIF,
   source_code_link,
 }) => {
   return (
@@ -21,7 +22,7 @@ const ProjectCard = ({
       option={{ max: 45, scale: 1, speed: 450 }}
       className="projectcard_container">
         <div className="projectcard_bg">
-          <img src={image} alt={name} className="projectcard_image"/> 
+          <img src={imageAVIF} onError={e => e.currentTarget.src = `${image}`} alt={name} className="projectcard_image"/> 
           <div className="projectcard_content">
           <div onClick={ () => window.open(source_code_link, "_blank") } className='projectcard_link'>
             <img src={github} alt="github" className="projectcard_icon"/>

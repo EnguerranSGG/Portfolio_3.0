@@ -12,15 +12,42 @@ import {
     CSharp,
     Cplusbis,
     NET,
+    threejs,
+
+    htmlAVIF,
+    cssAVIF,
+    gitAVIF,
+    javascriptAVIF,
+    reactjsAVIF,
+    reduxAVIF,
+    threejsAVIF,
+    CSharpAVIF,
+    CplusbisAVIF,
+    NETAVIF,
+    postgreSQLAVIF,
+    excalidrawAVIF,
+    bootstrapAVIF,
+    dockerAVIF,
+
     Universite_Lille,
     centrakor,
     Huluette,
-    threejs,
     openclassrooms,
     simplon,
+
+    Universite_LilleAVIF,
+    centrakorAVIF,
+    HuluetteAVIF,
+    openclassroomsAVIF,
+    simplonAVIF,
+
     LaBonneAuberge,
     LaFarandole,
-    Portfolio
+    Portfolio,
+
+    LaBonneAubergeAVIF,
+    LaFarandoleAVIF,
+    PortfolioAVIF
   } from "../assets";
   
   export const navLinks = [
@@ -42,58 +69,72 @@ import {
     {
       name: "HTML 5",
       icon: html,
+      iconAVIF: htmlAVIF,
     },
     {
       name: "CSS 3",
       icon: css,
+      iconAVIF: cssAVIF,
     },
     {
       name: "Bootstrap 5",
       icon: bootstrap,
+      iconAVIF: bootstrapAVIF,
     },
     {
       name: "JavaScript",
       icon: javascript,
+      iconAVIF: javascriptAVIF,
     },
     {
       name: "C#",
       icon: CSharp,
+      iconAVIF: CSharpAVIF,
     },
     {
       name: "C++",
       icon: Cplusbis,
+      iconAVIF: CplusbisAVIF,
     },
     {
       name: "React JS",
       icon: reactjs,
+      iconAVIF: reactjsAVIF,
     },
     {
       name: "Redux Toolkit",
       icon: redux,
+      iconAVIF: reduxAVIF,
     },
     {
       name: "Three JS",
       icon: threejs,
+      iconAVIF: threejsAVIF,
     },
     {
       name: ".NET",
       icon: NET,
+      iconAVIF: NETAVIF,
     },
     {
       name: "PostgreSQL",
       icon: postgreSQL,
+      iconAVIF: postgreSQLAVIF,
     },
     {
       name: "git",
       icon: git,
+      iconAVIF: gitAVIF,
     },
     {
       name: "Excalidraw",
       icon: excalidraw,
+      iconAVIF: excalidrawAVIF,
     },
     {
       name: "docker",
       icon: docker,
+      iconAVIF: dockerAVIF,
     },
   ];
   
@@ -102,6 +143,7 @@ import {
       title: "Formation - Développeur .NET",
       company_name: "Simplon",
       icon: simplon,
+      iconAVIF: simplonAVIF,
       iconBg: "#ffffff",
       date: "Nov. 2023 - Févr. 2024",
       points: [
@@ -117,6 +159,7 @@ import {
       title: "Stage - Developpeur Front-End",
       company_name: "Huluette Design",
       icon: Huluette,
+      iconAVIF: HuluetteAVIF,
       iconBg: "#E6DEDD",
       date: "Oct. 2023 - Nov. 2023",
       points: [
@@ -127,6 +170,7 @@ import {
       title: "Formation - Developpeur Front-end",
       company_name: "Simplon",
       icon: simplon,
+      iconAVIF: simplonAVIF,
       iconBg: "#ffffff",
       date: "Sept. 2023 - Oct. 2023",
       points: [
@@ -137,6 +181,7 @@ import {
       title: "Formation - Autodidacte",
       company_name: "OpenClassrooms / Codacademy",
       icon: openclassrooms,
+      iconAVIF: openclassroomsAVIF,
       iconBg: "#E6DEDD",
       date: "Mai 2023 - Août 2023",
       points: [
@@ -147,6 +192,7 @@ import {
       title: "CDD - Vendeur",
       company_name: "Centrakor / Nature & Découvertes",
       icon: centrakor,
+      iconAVIF: centrakorAVIF,
       iconBg: "#E6DEDD",
       date: "Sept. 2021 - Avril 2023",
       points: [
@@ -161,6 +207,7 @@ import {
       title: " M1 Spécialité European Affairs + Licence de droit, économie et gestion mention science politique",
       company_name: "Université de Lille",
       icon: Universite_Lille,
+      iconAVIF: Universite_LilleAVIF,
       iconBg: "#E6DEDD",
       date: "Sept. 2016 - Janv. 2021",
       points: [
@@ -194,6 +241,7 @@ import {
         },
       ],
       image: LaBonneAuberge,
+      imageAVIF: LaBonneAubergeAVIF,
       source_code_link: "https://github.com/EnguerranSGG/LaBonneAuberge_ES",
     },
     {
@@ -211,6 +259,7 @@ import {
         },
       ],
       image: LaFarandole,
+      imageAVIF: LaFarandoleAVIF,
       source_code_link: "https://github.com/EnguerranSGG/Farandole_Project",
     },
     {
@@ -228,6 +277,7 @@ import {
         }
       ],
       image: Portfolio,
+      imageAVIF: PortfolioAVIF,
       source_code_link: "https://github.com/EnguerranSGG/CV_Portfolio",
     },
   ];
