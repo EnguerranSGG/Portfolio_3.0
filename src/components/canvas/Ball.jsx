@@ -21,7 +21,7 @@ const Ball = (props) => {
   )
 }
 
-const BallCanvas = ({ icon, iconAVIF }) => {
+const BallCanvas = ({ icon /*, iconAVIF */ }) => {
 
   return (
     <Canvas
@@ -31,7 +31,7 @@ const BallCanvas = ({ icon, iconAVIF }) => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false}/>
-        <Ball imgUrl={icon} onError={e => e.currentTarget.src = `${iconAVIF}`} />
+        <Ball imgUrl={icon} /* onError={e => e.currentTarget.src = `${iconAVIF}`}*/ />
       </Suspense>
       <Preload all />
     </Canvas>
