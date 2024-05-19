@@ -957,7 +957,8 @@
 
 .works_container {
   margin-top: 2rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   margin-bottom: 6vh;
 }
@@ -971,6 +972,7 @@
   border-radius: 0.75rem;
   padding: 1.25rem;
   width: 100%;
+  height: 100%;
 }
 
 .projectcard_bg {
@@ -991,7 +993,7 @@
   top: 0;
   right: 0;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   margin: 0.75rem;
 }
 
@@ -1012,6 +1014,8 @@
 
 .projectcard_info {
   margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .projectcard_title {
@@ -1024,14 +1028,58 @@
   margin-top: 1rem;
   color: white;
   font-size: 2vh;
-  text-align: justify;
 }
 
-.postcard_tags {
+.projectcard_tags {
   margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.postcard_tags p {
+  text-shadow: 1px 10px 2px black;
+}
+
+.html-text {
+  color: #e34c26;
+}
+
+.js-text {
+  color: #f0db4f;
+}
+
+.redux-text {
+  color: #764abc;
+}
+
+.aspnet-text {
+  color: #180783;
+}
+
+.sqlite-text {
+  color: #1b182e;
+}
+
+.bootstrap-text {
+  color: #43009b;
+}
+
+.react-text {
+  color: #61dbfb;
+}
+
+.css-text {
+  color: #264de4;
+}
+
+.json-text {
+  color: #707070;
+}
+
+.tailwind-text {
+  color: #06b6d4;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1100px) {

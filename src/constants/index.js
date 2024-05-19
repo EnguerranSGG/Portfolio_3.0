@@ -47,7 +47,13 @@ import {
 
     LaBonneAubergeAVIF,
     LaFarandoleAVIF,
-    PortfolioAVIF
+    PortfolioAVIF,
+    ShopTendance,
+    ShopTendanceAVIF,
+    MeteoProject,
+    MeteoProjectAVIF,
+    UserExplorer,
+    UserExplorerAVIF
   } from "../assets";
   
   export const navLinks = [
@@ -229,15 +235,15 @@ import {
       tags: [
         {
           name: "Asp.Net Core MVC",
-          color: "blue-text-gradient",
+          color: "aspnet-text"
         },
         {
           name: "SQLite",
-          color: "green-text-gradient",
+          color: "sqlite-text"
         },
         {
           name: "Bootstrap",
-          color: "pink-text-gradient",
+          color: "bootstrap-text"
         },
       ],
       image: LaBonneAuberge,
@@ -251,16 +257,81 @@ import {
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "react-text"
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "css-text"
         },
+        {
+          name: "JSON",
+          color: "json-text"
+        }
       ],
       image: LaFarandole,
       imageAVIF: LaFarandoleAVIF,
       source_code_link: "https://github.com/EnguerranSGG/Farandole_Project",
+    },
+    {
+      name: "ShopTendance",
+      description: 
+        "Site réalisé en tant que projet chef d'oeuvre de ma formation de développeur Front-end chez Simplon. L'objectif était de réaliser le back-office d'un site de vétements fictif avec un CRUD complet usant de la librairie Redux ainsi qu'un système de filtrage des produits par catégorie utilisant React-router-dom.",
+      tags: [
+        {
+          name: "redux",
+          color: "redux-text"
+        },
+        {
+          name: "react",
+          color: "react-text"
+        },
+        {
+          name: "JSON",
+          color: "json-text"
+        }
+      ],
+      image: ShopTendance,
+      imageAVIF: ShopTendanceAVIF,
+      source_code_link: "https://github.com/EnguerranSGG/ShopTendanceInventory_Project",
+    },
+    {
+      name: "Météo Connect", 
+      description: 
+        "Site réalisé en groupe pendant ma formation de développeur Front-end chez Simplon. L'objectif était de concevoir une application de météo React en se connectant à une API de prévisions météorologiques. Un lien vers le site est disponible sur mon Github.",
+      tags: [
+        {
+          name: "react",
+          color: "react-text",
+        },
+        {
+          name: "tailwind",
+          color: "tailwind-text",
+        }
+      ],
+      image: MeteoProject,
+      imageAVIF: MeteoProjectAVIF,
+      source_code_link: "https://github.com/EnguerranSGG/MeteoConnect_Project"  
+    },
+    {
+      name: "UserEXplorer",
+      description: "Site réalisé pendant ma formation de développeur Front-end chez Simplon. L'objectif était de concevoir une interface consommant les données d'une API REST pour lister les employés d'une entreprise fictive. Un lien vers le site est disponible sur mon Github.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "js-text",
+        },
+        {
+          name: "html",
+          color: "html-text",
+        },
+        {
+          name: "css",
+          color: "css-text",
+        }
+      ],
+      image: UserExplorer,
+      imageAVIF: UserExplorerAVIF,
+      source_code_link: "https://github.com/EnguerranSGG/userExplorer_Project"
     },
     {
       name: "Mon premier portfolio",
@@ -269,11 +340,11 @@ import {
       tags: [
         {
           name: "html",
-          color: "blue-text-gradient",
+          color: "html-text"
         },
         {
           name: "css",
-          color: "green-text-gradient",
+          color: "css-text"
         }
       ],
       image: Portfolio,
