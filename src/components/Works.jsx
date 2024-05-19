@@ -19,26 +19,26 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="projectcard" id='projects'>
       <Tilt
-      option={{ max: 45, scale: 1, speed: 450 }}
-      className="projectcard_container">
+        option={{ max: 45, scale: 1, speed: 450 }}
+        className="projectcard_container">
         <div className="projectcard_bg">
-          <img src={imageAVIF} onError={e => e.currentTarget.src = `${image}`} alt={name} className="projectcard_image"/> 
+          <img src={imageAVIF} onError={e => e.currentTarget.src = `${image}`} alt={name} className="projectcard_image" />
           <div className="projectcard_content">
-          <div onClick={ () => window.open(source_code_link, "_blank") } className='projectcard_link'>
-            <img src={github} alt="github" className="projectcard_icon"/>
+            <div onClick={() => window.open(source_code_link, "_blank")} className='projectcard_link'>
+              <img src={github} alt="github" className="projectcard_icon" />
+            </div>
           </div>
-        </div>
         </div>
         <div className="projectcard_info">
           <h3 className="projectcard_title">{name}</h3>
           <p className="projectcard_description">{description}</p>
-        </div>
-        <div className="projectcard_tags">
-          {tags.map((tag) => (
-            <p key={tag.name} className={`projectcard_tag ${tag.color}`}>
-              #{tag.name}
-            </p>
-          ))}
+          <div className="projectcard_tags">
+            {tags.map((tag) => (
+              <p key={tag.name} className={`projectcard_tag ${tag.color}`}>
+                #{tag.name}
+              </p>
+            ))}
+          </div>
         </div>
       </Tilt>
     </motion.div>

@@ -48,10 +48,16 @@ import HuluetteAVIF from "./company/Huluette.avif";
 import LaBonneAuberge from "./project/LaBonneAuberge.png";
 import LaFarandole from "./project/LaFarandole.png";
 import Portfolio from "./project/Portfolio.png";
+import MeteoProject from "./project/meteo_project.png";
+import ShopTendance from "./project/shop_tendance.png";
+import UserExplorer from "./project/userExplorer.png";
 
 import LaBonneAubergeAVIF from "./project/LaBonneAuberge.avif";
 import LaFarandoleAVIF from "./project/LaFarandole.avif";
 import PortfolioAVIF from "./project/Portfolio.avif";
+import MeteoProjectAVIF from "./project/meteo_project.avif";
+import ShopTendanceAVIF from "./project/shop_tendance.avif";
+import UserExplorerAVIF from "./project/userExplorer.avif";
 
 import Lovecraft from "./passion/lovecraft_cthulhu.jpg";
 import Evangelion from "./passion/end-evangelion.jpg";
@@ -115,10 +121,16 @@ export {
   LaBonneAuberge,
   LaFarandole,
   Portfolio,
+  MeteoProject,
+  ShopTendance,
+  UserExplorer,
 
   LaBonneAubergeAVIF,
   LaFarandoleAVIF,
   PortfolioAVIF,
+  MeteoProjectAVIF,
+  ShopTendanceAVIF,
+  UserExplorerAVIF,
 
   Lovecraft,
   EldenTree,
