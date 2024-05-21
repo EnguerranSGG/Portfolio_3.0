@@ -13,6 +13,12 @@ import {
     Cplusbis,
     NET,
     threejs,
+    java,
+    tailwind,
+    nextjs,
+    MySQL,
+    typescript,
+    figma,
 
     htmlAVIF,
     cssAVIF,
@@ -83,14 +89,17 @@ import {
       iconAVIF: cssAVIF,
     },
     {
-      name: "Bootstrap 5",
-      icon: bootstrap,
-      iconAVIF: bootstrapAVIF,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
       iconAVIF: javascriptAVIF,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Java",
+      icon: java,
     },
     {
       name: "C#",
@@ -118,19 +127,22 @@ import {
       iconAVIF: threejsAVIF,
     },
     {
+      name: "Next.js",
+      icon: nextjs,
+    },
+    {
       name: ".NET",
       icon: NET,
       iconAVIF: NETAVIF,
     },
     {
-      name: "PostgreSQL",
-      icon: postgreSQL,
-      iconAVIF: postgreSQLAVIF,
+      name: "Tailwind",
+      icon: tailwind,
     },
     {
-      name: "git",
-      icon: git,
-      iconAVIF: gitAVIF,
+      name: "Bootstrap 5",
+      icon: bootstrap,
+      iconAVIF: bootstrapAVIF,
     },
     {
       name: "Excalidraw",
@@ -138,10 +150,28 @@ import {
       iconAVIF: excalidrawAVIF,
     },
     {
+      name: "Figma",
+      icon: figma,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgreSQL,
+      iconAVIF: postgreSQLAVIF,
+    },
+    {
+      name: "MySQL",
+      icon: MySQL,
+    },
+    {
       name: "docker",
       icon: docker,
       iconAVIF: dockerAVIF,
     },
+    {
+      name: "git",
+      icon: git,
+      iconAVIF: gitAVIF,
+    }
   ];
   
   const experiences = [

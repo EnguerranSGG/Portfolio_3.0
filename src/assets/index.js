@@ -7,14 +7,20 @@ import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import typescript from "./tech/typescript.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import threejs from "./tech/threejs.png";
 import CSharp from "./tech/CSharp.png";
 import Cplusbis from "./tech/C++.png";
+import java from "./tech/java.png";
+import nextjs from "./tech/next-js.svg";
 import NET from "./tech/NET.png";
 import postgreSQL from "./tech/postgreSQL.png";
+import MySQL from "./tech/Mysql.png";
+import figma from "./tech/figma.png";
 import excalidraw from "./tech/excalidraw.png";
+import tailwind from "./tech/tailwind.png";
 import bootstrap from "./tech/bootstrap5.png";
 import docker from "./tech/docker.png";
 
@@ -79,17 +85,23 @@ export {
   css,
   docker,
   git,
+  java,
   CSharp,
   Cplusbis,
   NET,
+  nextjs,
   html,
   javascript,
+  typescript,
   reactjs,
   redux,
   threejs,
   bootstrap,
+  tailwind,
+  figma,
   excalidraw,
   postgreSQL,
+  MySQL,
 
   htmlAVIF,
   cssAVIF,
