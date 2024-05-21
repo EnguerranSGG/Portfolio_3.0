@@ -59,7 +59,7 @@ const Passions = () => {
                     <label htmlFor="passion4" className='passion_card'>
                         <div className="row">
                             <div className="passion_description">
-                                <h4>Animation japonsaise</h4>
+                                <h4>Animation japonaise</h4>
                                 <p>Passion sans borne pour l'animation japonaise.</p>
                             </div>
                         </div>
