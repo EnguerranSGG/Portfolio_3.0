@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
         <div className='about_text'>
           <h1>Bonjour, je suis <span>Enguerran</span></h1>
-          <p>Un jeune développeur en quête d'une alternance pour sa formation de concepteur développeur d'applications.</p>
+          <p>Un jeune développeur en quête d'une alternance pour sa formation de développeur web !</p>
         </div>
       </div>
 

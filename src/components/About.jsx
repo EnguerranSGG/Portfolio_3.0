@@ -17,8 +17,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='intro_description'>
-        Ancien "science politiste" de 25 ans, cela va bientôt faire un an maintenant que je me suis reconvertis en tant que
-        développeur. Ce qui m'a tout de suite plu dans ce secteur ? Son champ des possibles et sa transversalité !<br /><br />
+        Ancien étudiant en sciences poltiques spécialisé dans la conduite de projets européens, cela fait un an maintenant que cela fait un an que je me suis tourné vers la programmation informatique. Si j’ai choisi cette voie, en parallèle de mon attrait pour les nouvelles technologies, c’est pour la transversalité absolue du secteur. <br /><br />
       </motion.p>
 
       <motion.div variants={fadeIn("", "", 0.1, 1)} className='academic'>
@@ -50,13 +49,11 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='active_description'>
-        Après ma période d'apprentissage en autodidacte, lorsque j'eus envie de passer aux choses sérieuses, je rejoignis
-        le centre de formation Simplon. Le fait d'avoir toujours travaillé sur des projets
+        Après ma période d'apprentissage en autodidacte, je regoignis Simplon pour plusieurs mois de formation intensive en développement Front-end et Back-end avec de véritables professionnels du secteur. Le fait d'avoir toujours travaillé sur des projets
         concrêts avec des délais impartis et une grande autonomie m'a fait gagner en confiance et en débrouillardise, compétences
         essentielles pour un développeur. <br /><br />
         Maintenant, je n'aspire plus qu'à une seule chose, poursuivre mon apprentissage. Acquérir un socle de connaissances
-        encore plus solide avant de me spécialiser. Je porte notamment un grand intérêt aux technologies de réalité
-        augmentée et de réalité virtuelle, c'est pourquoi j'ai commencé à apprendre C# et C++.
+        encore plus solide avant de me spécialiser. Je porte notamment un grand intérêt pour la programmation orientée objet.
       </motion.p>
 
     </>

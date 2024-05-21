@@ -60,7 +60,7 @@ const Passions = () => {
                         <div className="row">
                             <div className="passion_description">
                                 <h4>Animation japonsaise</h4>
-                                <p>Passion sans borne pour l'animation japonsaise.</p>
+                                <p>Passion sans borne pour l'animation japonaise.</p>
                             </div>
                         </div>
                     </label>

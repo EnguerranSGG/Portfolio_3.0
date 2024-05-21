@@ -153,7 +153,7 @@ import {
       iconBg: "#ffffff",
       date: "Nov. 2023 - Févr. 2024",
       points: [
-        "Inititation à .NET 6(.NET 6).",
+        "Initiation à .NET 6(.NET 6).",
         "Programmation Orientée Objet en C#.",
         "Conception UML / Méthode Merise (MLD, MCD, MPD).",
         "SQL / BackEnd REST en ASP. Net Core (Minimal API, API, MVC, Entity Framework).",
@@ -162,7 +162,7 @@ import {
       ],
     },
     {
-      title: "Stage - Developpeur Front-End",
+      title: "Stage - Développeur Front-End",
       company_name: "Huluette Design",
       icon: Huluette,
       iconAVIF: HuluetteAVIF,
@@ -173,7 +173,7 @@ import {
       ],
     },
     {
-      title: "Formation - Developpeur Front-end",
+      title: "Formation - Développeur Front-end",
       company_name: "Simplon",
       icon: simplon,
       iconAVIF: simplonAVIF,
@@ -221,7 +221,7 @@ import {
         "Gestion de projet.",
         "Droit administratif, pénal, international et européen.",
         "Politiques publiques.",
-        "Géopolitique",
+        "Géopolitique.",
         "Pratique de l'anglais niveau universitaire."
       ],
     }
