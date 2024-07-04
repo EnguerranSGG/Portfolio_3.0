@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import profilePic from "./profile-pic.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -78,6 +79,7 @@ import PaysageAVIF from "./passion/dessin_paysage1.avif";
 
 export {
   logo,
+  profilePic,
 
   github,
   menu,
