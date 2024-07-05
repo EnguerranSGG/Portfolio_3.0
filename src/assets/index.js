@@ -58,6 +58,7 @@ import Portfolio from "./project/Portfolio.png";
 import MeteoProject from "./project/meteo_project.png";
 import ShopTendance from "./project/shop_tendance.png";
 import UserExplorer from "./project/userExplorer.png";
+import PokedexProject from "./project/PokedexProject.png";
 
 import LaBonneAubergeAVIF from "./project/LaBonneAuberge.avif";
 import LaFarandoleAVIF from "./project/LaFarandole.avif";
@@ -65,6 +66,7 @@ import PortfolioAVIF from "./project/Portfolio.avif";
 import MeteoProjectAVIF from "./project/meteo_project.avif";
 import ShopTendanceAVIF from "./project/shop_tendance.avif";
 import UserExplorerAVIF from "./project/userExplorer.avif";
+import PokedexProjectAVIF from "./project/PokedexProject.avif";
 
 import Lovecraft from "./passion/lovecraft_cthulhu.jpg";
 import Evangelion from "./passion/end-evangelion.jpg";
@@ -138,6 +140,7 @@ export {
   MeteoProject,
   ShopTendance,
   UserExplorer,
+  PokedexProject,
 
   LaBonneAubergeAVIF,
   LaFarandoleAVIF,
@@ -145,6 +148,7 @@ export {
   MeteoProjectAVIF,
   ShopTendanceAVIF,
   UserExplorerAVIF,
+  PokedexProjectAVIF,
 
   Lovecraft,
   EldenTree,
