@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 2vh;
+  margin-top: 5vw;
 }
 
 .navbar_logo_text {
@@ -53,14 +53,14 @@
 }
 
 .navbar_logo {
-  width: 14%;
+  width: 20%;
   height: auto;
-  padding-right: 1%;
+  padding-right: 2vw;
 }
 
 .logo_text {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 2vw;
   font-weight: 700;
   background: -webkit-linear-gradient(right, #e99e68, #cfa689);
   -webkit-background-clip: text;
@@ -85,7 +85,7 @@
 .navbar_links a {
   display: inline-block;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.6vw;
   background: -webkit-linear-gradient(right, #e99e68, #cfa689);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -104,25 +104,90 @@
   display: none;
 }
 
-.menu_links a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1.5rem;
-  background: -webkit-linear-gradient(right, #e99e68, #cfa689);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease;
+@media screen and (orientation: portrait) {
+
+  .navbar {
+    margin-bottom: 13vw;
+  }
+
+  .no_title {
+    display: none;
+  }
+
+  .navbar_links {
+    display: none;
+  }
+
+  .navbar_logo {
+    width: 25%;
+    height: auto;
+  }
+
+  .navbar_menu {
+    display: block;
+    margin: 1vh;
+  }
+
+  .no_menu {
+    display: none;
+  }
+
+  .show_menu {
+    display: block;
+    z-index: 10;
+  }
+
+  .menu_img {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .menu_links {
+    position: absolute;
+    list-style: none;
+    right: 0;
+    margin: 2%;
+  }
+
+  .menu_links a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3vh;
+    background: -webkit-linear-gradient(right, #e99e68, #cfa689);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+  }
 }
 
-.menu_links a:hover {
-  scale: 1.1;
-  background: -webkit-linear-gradient(left, #e99e68, #cfa689);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: pointer;
+@media screen and (max-height: 769px) and (orientation: landscape) {
+
+  .navbar {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .navbar_logo {
+    width: 20%;
+    height: auto;
+  }
+
+  .navbar_logo_text {
+    width: 100%;
+  }
+
+  .navbar_links a {
+    padding: 4vw;
+    font-size: 2vw;
+    text-wrap: nowrap;
+  }
+
 }
 
-@media screen and (max-height: 590px) {
+/*@media screen and (max-height: 590px) {
   .no_title {
     display: none;
   }
@@ -246,7 +311,7 @@
 @media screen and (max-width: 768px) {
 
   .navbar {
-    margin-top: 6vh;
+    margin-top: 1vh;
   }
 
   .no_title {
@@ -299,7 +364,7 @@
     font-size: 1rem;
   }
 
-}
+}*/
 
 /* End of Navbar */
 
@@ -364,7 +429,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 5vw;
   margin-top: 7vh;
   padding: 0px 2rem;
 }
@@ -465,7 +530,7 @@
 }
 
 .about_text p {
-  font-size: 1.4rem;
+  font-size: 1.8vw;
   margin-top: 1.25rem;
   animation: slideIn 3s forwards;
   animation-delay: 3s;
@@ -559,7 +624,27 @@
   text-align: center;
 }
 
-@media screen and (max-width: 700px) and (orientation: landscape) {
+@media screen and (max-width: 950px) and (orientation: landscape) {
+  .about img {
+    width: 25vw;
+    height: auto;
+  }
+
+  .about_ball {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  
+  .about_line {
+    width: 0.45vw;
+  }
+  
+  .about_text h1 {
+    font-size: 2.9vw;
+  }
+}
+
+@media screen and (max-width: 769px) and (orientation: landscape) {
 
   .about {
     margin-top: 0vh;
@@ -634,6 +719,16 @@
   
   .active_description {
     font-size: 1.9vw;
+  }
+
+  @keyframes float {
+    from {
+      transform: translatey(0px);
+    }
+    to {
+      transform: translatey(10px);
+    }
+  
   }
 }
 
@@ -1214,8 +1309,16 @@
   color: #f0db4f;
 }
 
+.typescript-text {
+  color: #007acc;
+}
+
 .redux-text {
   color: #764abc;
+}
+
+.angular-text {
+  color: #dd0031;
 }
 
 .aspnet-text {
@@ -1236,6 +1339,10 @@
 
 .css-text {
   color: #264de4;
+}
+
+.scss-text {
+  color: #cd6799;
 }
 
 .json-text {
