@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import profilePic from "./profile-pic.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -14,7 +15,7 @@ import threejs from "./tech/threejs.png";
 import CSharp from "./tech/CSharp.png";
 import Cplusbis from "./tech/C++.png";
 import java from "./tech/java.png";
-import nextjs from "./tech/next-js.svg";
+import angular from "./tech/angular.png";
 import NET from "./tech/NET.png";
 import postgreSQL from "./tech/postgreSQL.png";
 import MySQL from "./tech/Mysql.png";
@@ -38,6 +39,7 @@ import postgreSQLAVIF from "./tech/postgreSQL.avif";
 import excalidrawAVIF from "./tech/excalidraw.avif";
 import bootstrapAVIF from "./tech/bootstrap5.avif";
 import dockerAVIF from "./tech/docker.avif";
+import angularAVIF from "./tech/angular.avif";
 
 import Universite_Lille from "./company/Universite_Lille.png";
 import centrakor from "./company/Centrakor.png";
@@ -57,6 +59,7 @@ import Portfolio from "./project/Portfolio.png";
 import MeteoProject from "./project/meteo_project.png";
 import ShopTendance from "./project/shop_tendance.png";
 import UserExplorer from "./project/userExplorer.png";
+import PokedexProject from "./project/PokedexProject.png";
 
 import LaBonneAubergeAVIF from "./project/LaBonneAuberge.avif";
 import LaFarandoleAVIF from "./project/LaFarandole.avif";
@@ -64,6 +67,7 @@ import PortfolioAVIF from "./project/Portfolio.avif";
 import MeteoProjectAVIF from "./project/meteo_project.avif";
 import ShopTendanceAVIF from "./project/shop_tendance.avif";
 import UserExplorerAVIF from "./project/userExplorer.avif";
+import PokedexProjectAVIF from "./project/PokedexProject.avif";
 
 import Lovecraft from "./passion/lovecraft_cthulhu.jpg";
 import Evangelion from "./passion/end-evangelion.jpg";
@@ -78,6 +82,7 @@ import PaysageAVIF from "./passion/dessin_paysage1.avif";
 
 export {
   logo,
+  profilePic,
 
   github,
   menu,
@@ -89,7 +94,6 @@ export {
   CSharp,
   Cplusbis,
   NET,
-  nextjs,
   html,
   javascript,
   typescript,
@@ -102,6 +106,7 @@ export {
   excalidraw,
   postgreSQL,
   MySQL,
+  angular,
 
   htmlAVIF,
   cssAVIF,
@@ -117,6 +122,7 @@ export {
   excalidrawAVIF,
   bootstrapAVIF,
   dockerAVIF,
+  angularAVIF,
 
   Universite_Lille,
   centrakor,
@@ -136,6 +142,7 @@ export {
   MeteoProject,
   ShopTendance,
   UserExplorer,
+  PokedexProject,
 
   LaBonneAubergeAVIF,
   LaFarandoleAVIF,
@@ -143,6 +150,7 @@ export {
   MeteoProjectAVIF,
   ShopTendanceAVIF,
   UserExplorerAVIF,
+  PokedexProjectAVIF,
 
   Lovecraft,
   EldenTree,

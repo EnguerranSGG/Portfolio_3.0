@@ -15,10 +15,10 @@ import {
     threejs,
     java,
     tailwind,
-    nextjs,
     MySQL,
     typescript,
     figma,
+    angular,
 
     htmlAVIF,
     cssAVIF,
@@ -34,6 +34,7 @@ import {
     excalidrawAVIF,
     bootstrapAVIF,
     dockerAVIF,
+    angularAVIF,
 
     Universite_Lille,
     centrakor,
@@ -49,17 +50,17 @@ import {
 
     LaBonneAuberge,
     LaFarandole,
-    Portfolio,
+    ShopTendance,
+    MeteoProject,
+    UserExplorer,
+    PokedexProject,
 
     LaBonneAubergeAVIF,
     LaFarandoleAVIF,
-    PortfolioAVIF,
-    ShopTendance,
     ShopTendanceAVIF,
-    MeteoProject,
     MeteoProjectAVIF,
-    UserExplorer,
-    UserExplorerAVIF
+    UserExplorerAVIF,
+    PokedexProjectAVIF,
   } from "../assets";
   
   export const navLinks = [
@@ -127,8 +128,9 @@ import {
       iconAVIF: threejsAVIF,
     },
     {
-      name: "Next.js",
-      icon: nextjs,
+      name: "Angular",
+      icon: angular,
+      iconAVIF: angularAVIF,
     },
     {
       name: ".NET",
@@ -303,6 +305,28 @@ import {
       source_code_link: "https://github.com/EnguerranSGG/Farandole_Project",
     },
     {
+      name: "Pokedex",
+      description:
+        "Pokédex réalisé avec le framework Angular en fetchant les données d'une API. Site toujours en cours de développement mais un lien vers l'application actuelle est disponible sur mon Github.",
+      tags: [
+        {
+          name: "angular",
+          color: "angular-text"
+        },
+        {
+          name: "scss",
+          color: "scss-text"
+        },
+        {
+          name: "TypeScript",
+          color: "typescript-text"
+        }
+      ],
+      image: PokedexProject,
+      imageAVIF: PokedexProjectAVIF,
+      source_code_link: "https://github.com/EnguerranSGG/Pokedex_Project",
+    },
+    {
       name: "ShopTendance",
       description: 
         "Site réalisé en tant que projet chef d'oeuvre de ma formation de développeur Front-end chez Simplon. L'objectif était de réaliser le back-office d'un site de vétements fictif avec un CRUD complet usant de la librairie Redux ainsi qu'un système de filtrage des produits par catégorie utilisant React-router-dom.",
@@ -362,25 +386,7 @@ import {
       image: UserExplorer,
       imageAVIF: UserExplorerAVIF,
       source_code_link: "https://github.com/EnguerranSGG/userExplorer_Project"
-    },
-    {
-      name: "Mon premier portfolio",
-      description:
-        "Il s'agit ici de mon tout premier portfolio réalisé pendant ma formation en autodidacte. Si vous voulez en savoir plus sur ma passion du dessin et des jeux vidéo, (et que vous n'avez pas peur d'avoir un peu mal aux yeux) n'hésitez pas à le visiter! Un lien vers le site est disponible sur mon Github.",
-      tags: [
-        {
-          name: "html",
-          color: "html-text"
-        },
-        {
-          name: "css",
-          color: "css-text"
-        }
-      ],
-      image: Portfolio,
-      imageAVIF: PortfolioAVIF,
-      source_code_link: "https://github.com/EnguerranSGG/CV_Portfolio",
-    },
+    }
   ];
   
   export { technologies, experiences, projects };

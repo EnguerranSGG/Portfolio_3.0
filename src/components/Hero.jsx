@@ -1,6 +1,6 @@
 import React from 'react'
-import { motion } from 'framer-motion'
-import { VRHeadsetCanvas } from './canvas'
+
+import { profilePic } from '../assets'
 
 import { SectionWrapper } from '../hoc'
 
@@ -14,14 +14,15 @@ const Hero = () => {
           <div className='about_line'/>
         </div>
         <div className='about_text'>
-          <h1>Bonjour, je suis <span>Enguerran</span></h1>
+          <div><h1>Bonjour, je suis <span>Enguerran</span></h1></div>
           <p>Un jeune développeur en quête d'une alternance pour sa formation de développeur web !</p>
         </div>
       </div>
 
-    </section>
-    <section className="vr_headset">
-    <VRHeadsetCanvas />
+      <div className='about_image'>
+        <img src={profilePic} alt="profile" />
+      </div>
+
     </section>
     </>
   )
