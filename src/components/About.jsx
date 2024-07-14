@@ -17,7 +17,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='intro_description'>
-        Ancien étudiant en sciences poltiques spécialisé dans la conduite de projets européens, cela fait un an que je me suis tourné vers la programmation informatique. Si j’ai choisi cette voie, en parallèle de mon attrait pour les nouvelles technologies, c’est pour la transversalité absolue du secteur. <br /><br />
+        Ancien étudiant en sciences poltiques spécialisé dans la conduite de projets européens, cela fait un an et demi que je me suis tourné vers la programmation informatique. Si j’ai choisi cette voie, en parallèle de mon attrait pour les nouvelles technologies, c’est pour la transversalité absolue du secteur. <br /><br />
       </motion.p>
 
       <motion.div variants={fadeIn("", "", 0.1, 1)} className='academic'>
@@ -35,7 +35,7 @@ const About = () => {
         maîtrise de l'anglais, j'y ai acquis un grand
         sens de l'organisation et de la rigueur ! <br /><br />
         En plus des savoirs et compétences académiques, au fil des années, j'ai eu l'occasion de participer à de
-        nombreux travaux de groupe et projets. Ils m'ont permis de gagner une expérience notoire dans la gestion de projet.
+        nombreux travaux de groupe et projets. Ils m'ont permis de gagner une expérience notoire dans la gestion de projet et dans la travail d'équipe.
         Expérience que j'aspire à consolider et concrétiser à l'avenir.
 
 
