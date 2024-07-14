@@ -15,7 +15,7 @@ import threejs from "./tech/threejs.png";
 import CSharp from "./tech/CSharp.png";
 import Cplusbis from "./tech/C++.png";
 import java from "./tech/java.png";
-import nextjs from "./tech/next-js.svg";
+import angular from "./tech/angular.png";
 import NET from "./tech/NET.png";
 import postgreSQL from "./tech/postgreSQL.png";
 import MySQL from "./tech/Mysql.png";
@@ -39,6 +39,7 @@ import postgreSQLAVIF from "./tech/postgreSQL.avif";
 import excalidrawAVIF from "./tech/excalidraw.avif";
 import bootstrapAVIF from "./tech/bootstrap5.avif";
 import dockerAVIF from "./tech/docker.avif";
+import angularAVIF from "./tech/angular.avif";
 
 import Universite_Lille from "./company/Universite_Lille.png";
 import centrakor from "./company/Centrakor.png";
@@ -93,7 +94,6 @@ export {
   CSharp,
   Cplusbis,
   NET,
-  nextjs,
   html,
   javascript,
   typescript,
@@ -106,6 +106,7 @@ export {
   excalidraw,
   postgreSQL,
   MySQL,
+  angular,
 
   htmlAVIF,
   cssAVIF,
@@ -121,6 +122,7 @@ export {
   excalidrawAVIF,
   bootstrapAVIF,
   dockerAVIF,
+  angularAVIF,
 
   Universite_Lille,
   centrakor,

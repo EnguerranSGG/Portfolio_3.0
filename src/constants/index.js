@@ -15,10 +15,10 @@ import {
     threejs,
     java,
     tailwind,
-    nextjs,
     MySQL,
     typescript,
     figma,
+    angular,
 
     htmlAVIF,
     cssAVIF,
@@ -34,6 +34,7 @@ import {
     excalidrawAVIF,
     bootstrapAVIF,
     dockerAVIF,
+    angularAVIF,
 
     Universite_Lille,
     centrakor,
@@ -127,8 +128,9 @@ import {
       iconAVIF: threejsAVIF,
     },
     {
-      name: "Next.js",
-      icon: nextjs,
+      name: "Angular",
+      icon: angular,
+      iconAVIF: angularAVIF,
     },
     {
       name: ".NET",
