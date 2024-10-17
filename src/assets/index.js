@@ -20,10 +20,11 @@ import NET from "./tech/NET.png";
 import postgreSQL from "./tech/postgreSQL.png";
 import MySQL from "./tech/Mysql.png";
 import figma from "./tech/figma.png";
-import excalidraw from "./tech/excalidraw.png";
 import tailwind from "./tech/tailwind.png";
 import bootstrap from "./tech/bootstrap5.png";
 import docker from "./tech/docker.png";
+import jira from "./tech/jira.png";
+import unity from "./tech/unity.png";
 
 import htmlAVIF from "./tech/html.avif";
 import cssAVIF from "./tech/css.avif";
@@ -36,10 +37,11 @@ import CSharpAVIF from "./tech/CSharp.avif";
 import CplusbisAVIF from "./tech/C++.avif";
 import NETAVIF from "./tech/NET.avif";
 import postgreSQLAVIF from "./tech/postgreSQL.avif";
-import excalidrawAVIF from "./tech/excalidraw.avif";
 import bootstrapAVIF from "./tech/bootstrap5.avif";
 import dockerAVIF from "./tech/docker.avif";
 import angularAVIF from "./tech/angular.avif";
+import jiraAVIF from "./tech/jira.avif";
+import unityAVIF from "./tech/unity.avif";
 
 import Universite_Lille from "./company/Universite_Lille.png";
 import centrakor from "./company/Centrakor.png";
@@ -79,11 +81,9 @@ import EvangelionAVIF from "./passion/end-evangelion.avif";
 import EldenTreeAVIF from "./passion/EldenTree.avif";
 import PaysageAVIF from "./passion/dessin_paysage1.avif";
 
-
 export {
   logo,
   profilePic,
-
   github,
   menu,
   close,
@@ -103,11 +103,11 @@ export {
   bootstrap,
   tailwind,
   figma,
-  excalidraw,
   postgreSQL,
   MySQL,
   angular,
-
+  jira,
+  unity,
   htmlAVIF,
   cssAVIF,
   gitAVIF,
@@ -118,24 +118,22 @@ export {
   CSharpAVIF,
   CplusbisAVIF,
   NETAVIF,
+  unityAVIF,
   postgreSQLAVIF,
-  excalidrawAVIF,
   bootstrapAVIF,
+  jiraAVIF,
   dockerAVIF,
   angularAVIF,
-
   Universite_Lille,
   centrakor,
   openclassrooms,
   simplon,
   Huluette,
-
   Universite_LilleAVIF,
   centrakorAVIF,
   openclassroomsAVIF,
   simplonAVIF,
   HuluetteAVIF,
-  
   LaBonneAuberge,
   LaFarandole,
   Portfolio,
@@ -143,7 +141,6 @@ export {
   ShopTendance,
   UserExplorer,
   PokedexProject,
-
   LaBonneAubergeAVIF,
   LaFarandoleAVIF,
   PortfolioAVIF,
@@ -151,14 +148,12 @@ export {
   ShopTendanceAVIF,
   UserExplorerAVIF,
   PokedexProjectAVIF,
-
   Lovecraft,
   EldenTree,
   Evangelion,
   Paysage,
-
   LovecraftAVIF,
   EvangelionAVIF,
   EldenTreeAVIF,
-  PaysageAVIF
+  PaysageAVIF,
 };
