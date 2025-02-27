@@ -16,12 +16,11 @@ const Hero = () => {
           <div className="about_text">
             <div>
               <h1>
-                Bonjour, je suis <span>Enguerran</span>
+                Bienvenue, je suis <span>Enguerran</span>
               </h1>
             </div>
             <p>
-              Un jeune développeur en quête d'un stage pour valider son titre
-              CDA !
+              Développeur en transition vers l’intelligence artificielle et la data science.
             </p>
           </div>
         </div>
@@ -35,3 +34,4 @@ const Hero = () => {
 };
 
 export default SectionWrapper(Hero, "");
+
