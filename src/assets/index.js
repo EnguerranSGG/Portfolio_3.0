@@ -4,43 +4,22 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import profilePic from "./profile-pic.png";
 
-import css from "./tech/css.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
 import typescript from "./tech/typescript.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import threejs from "./tech/threejs.png";
-import CSharp from "./tech/CSharp.png";
-import Cplusbis from "./tech/C++.png";
+import python from "./tech/python.png";
+import SQL from "./tech/SQL.png";
+import linux from "./tech/linux.png";
+import csharp from "./tech/csharp.jpg";
 import java from "./tech/java.png";
 import angular from "./tech/angular.png";
-import NET from "./tech/NET.png";
-import postgreSQL from "./tech/postgreSQL.png";
-import MySQL from "./tech/Mysql.png";
-import figma from "./tech/figma.png";
-import tailwind from "./tech/tailwind.png";
-import bootstrap from "./tech/bootstrap5.png";
+import nestjs from "./tech/nestJS.svg";
 import docker from "./tech/docker.png";
-import jira from "./tech/jira.png";
 import unity from "./tech/unity.png";
+import spring from "./tech/spring.png";
 
-import htmlAVIF from "./tech/html.avif";
-import cssAVIF from "./tech/css.avif";
 import gitAVIF from "./tech/git.avif";
-import javascriptAVIF from "./tech/javascript.avif";
-import reactjsAVIF from "./tech/reactjs.avif";
-import reduxAVIF from "./tech/redux.avif";
-import threejsAVIF from "./tech/threejs.avif";
-import CSharpAVIF from "./tech/CSharp.avif";
-import CplusbisAVIF from "./tech/C++.avif";
-import NETAVIF from "./tech/NET.avif";
-import postgreSQLAVIF from "./tech/postgreSQL.avif";
-import bootstrapAVIF from "./tech/bootstrap5.avif";
 import dockerAVIF from "./tech/docker.avif";
 import angularAVIF from "./tech/angular.avif";
-import jiraAVIF from "./tech/jira.avif";
 import unityAVIF from "./tech/unity.avif";
 
 import Universite_Lille from "./company/Universite_Lille.png";
@@ -87,41 +66,20 @@ export {
   github,
   menu,
   close,
-  css,
   docker,
+  spring,
+  linux,
   git,
   java,
-  CSharp,
-  Cplusbis,
-  NET,
-  html,
-  javascript,
+  python,
+  SQL,
+  csharp,
   typescript,
-  reactjs,
-  redux,
-  threejs,
-  bootstrap,
-  tailwind,
-  figma,
-  postgreSQL,
-  MySQL,
   angular,
-  jira,
+  nestjs,
   unity,
-  htmlAVIF,
-  cssAVIF,
   gitAVIF,
-  javascriptAVIF,
-  reactjsAVIF,
-  reduxAVIF,
-  threejsAVIF,
-  CSharpAVIF,
-  CplusbisAVIF,
-  NETAVIF,
   unityAVIF,
-  postgreSQLAVIF,
-  bootstrapAVIF,
-  jiraAVIF,
   dockerAVIF,
   angularAVIF,
   Universite_Lille,
