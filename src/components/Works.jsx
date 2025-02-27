@@ -61,7 +61,7 @@ const Works = () => {
         Vous trouverez-ici une partie des projets
         auxquels j'ai contribué seul ou en groupe ;
         qu'ils soient personnels ou réalisés durant
-        une formation.
+        une formation. Les projets réalisés au cours de ma dernière formation ne sont pas encore présents.
       </motion.p>
 
       <div className='works_container'>
