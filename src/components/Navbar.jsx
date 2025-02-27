@@ -19,7 +19,7 @@ const Navbar = () => {
           window.scrollTo(0, 0)
           }}>
         <img src={logo} alt="logo" className='navbar_logo'/>
-        <p className='logo_text'><span className='no_title'>Enguerran Smagghe<br/>| Développeur web</span></p>
+        <p className='logo_text'><span className='no_title'>Enguerran Smagghe<br/>| Développeur IA / Data</span></p>
         </Link>
         <ul className='navbar_links'>
           {navLinks.map((link) => (
