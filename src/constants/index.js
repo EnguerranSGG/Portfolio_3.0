@@ -1,39 +1,18 @@
 import {
-  javascript,
-  html,
-  css,
-  reactjs,
-  redux,
-  postgreSQL,
   git,
+  python,
+  SQL,
   unity,
-  jira,
-  bootstrap,
   docker,
-  CSharp,
-  Cplusbis,
-  NET,
-  threejs,
+  linux,
+  csharp,
   java,
-  tailwind,
-  MySQL,
   typescript,
-  figma,
   angular,
-  htmlAVIF,
-  cssAVIF,
+  nestjs,
+  spring,
   gitAVIF,
-  javascriptAVIF,
-  reactjsAVIF,
-  reduxAVIF,
-  threejsAVIF,
-  CSharpAVIF,
-  CplusbisAVIF,
-  jiraAVIF,
   unityAVIF,
-  NETAVIF,
-  postgreSQLAVIF,
-  bootstrapAVIF,
   dockerAVIF,
   angularAVIF,
   Universite_Lille,
@@ -77,19 +56,12 @@ export const navLinks = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-    iconAVIF: htmlAVIF,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
-    iconAVIF: cssAVIF,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-    iconAVIF: javascriptAVIF,
+    name: "SQL",
+    icon: SQL,
   },
   {
     name: "TypeScript",
@@ -101,28 +73,11 @@ const technologies = [
   },
   {
     name: "C#",
-    icon: CSharp,
-    iconAVIF: CSharpAVIF,
+    icon: csharp,
   },
   {
-    name: "C++",
-    icon: Cplusbis,
-    iconAVIF: CplusbisAVIF,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-    iconAVIF: reactjsAVIF,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-    iconAVIF: reduxAVIF,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-    iconAVIF: threejsAVIF,
+    name: "Spring",
+    icon: spring,
   },
   {
     name: "Angular",
@@ -130,41 +85,13 @@ const technologies = [
     iconAVIF: angularAVIF,
   },
   {
+    name: "NestJS",
+    icon: nestjs,
+  },
+  {
     name: "Unity",
     icon: unity,
     iconAVIF: unityAVIF,
-  },
-  {
-    name: ".NET",
-    icon: NET,
-    iconAVIF: NETAVIF,
-  },
-  {
-    name: "Tailwind",
-    icon: tailwind,
-  },
-  {
-    name: "Bootstrap 5",
-    icon: bootstrap,
-    iconAVIF: bootstrapAVIF,
-  },
-  {
-    name: "Jira",
-    icon: jira,
-    iconAVIF: jiraAVIF,
-  },
-  {
-    name: "Figma",
-    icon: figma,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgreSQL,
-    iconAVIF: postgreSQLAVIF,
-  },
-  {
-    name: "MySQL",
-    icon: MySQL,
   },
   {
     name: "docker",
@@ -176,33 +103,39 @@ const technologies = [
     icon: git,
     iconAVIF: gitAVIF,
   },
+  {
+    name: "linux",
+    icon: linux,
+  }
 ];
 
 const experiences = [
   {
-    title: "Concepteur développeur d'applications - Titre RNCP (bac +3/+4)",
+    title: "Formation Autodidacte - Data Science & Machine Learning",
+    company_name: "OpenClassrooms / Coursera",
+    icon: openclassrooms,
+    iconAVIF: openclassroomsAVIF,
+    iconBg: "#E6DEDD",
+    date: "Mars 2025 - En cours",
+    points: [
+      "Initiation à l’analyse de données et au machine learning.",
+      "Étude de Python, Pandas, Scikit-learn et algèbre linéaire.",
+      "Exploration des systèmes de recommandation et des modèles prédictifs.",
+    ],
+  },
+  {
+    title: "Concepteur Développeur d'Applications - Titre RNCP (Bac+3/+4)",
     company_name: "Simplon",
     icon: simplon,
     iconAVIF: simplonAVIF,
     iconBg: "#ffffff",
-    date: "Sept. 2024 à Juillet 2025",
+    date: "Sept. 2024 - Juillet 2025",
     points: [
-      "Développement d'applications sécurisées: Configuration de l'environnement, développement d'UI et composants métier, gestion de projet. ",
-      "Conception en couches: analyse des besoins, architecture logicielle, bases de données SQL/NoSQL.",
-      "Déploiement: tests unitaires, documentation, contribution à la mise en production.",
-      "Projet fil rouge : création de bots Discord pour gérer le serveur Simplon des Hauts-de-France.",
-    ],
-  },
-  {
-    title: "Formation - Autodidacte",
-    company_name: "Unity learn / OpenClassrooms",
-    icon: openclassrooms,
-    iconAVIF: openclassroomsAVIF,
-    iconBg: "#E6DEDD",
-    date: "Mars 2024 - Août 2024",
-    points: [
-      "Apprentissage de Angular et de TypeScript",
-      "Suivi du cours Unity Essentials",
+      "Développement et sécurisation d’applications sous Linux, PostgreSQL et Docker.",
+      "Conception logicielle : analyse des besoins, architecture en couches, bases de données SQL/NoSQL.",
+      "Gestion de projet en méthodologie Agile (Scrum, Kanban).",
+      "Tests unitaires, documentation et contribution à la mise en production.",
+      "Projet marquant : développement de bots Discord pour automatiser la gestion du serveur Simplon Hauts-de-France.",
     ],
   },
   {
@@ -211,14 +144,12 @@ const experiences = [
     icon: simplon,
     iconAVIF: simplonAVIF,
     iconBg: "#ffffff",
-    date: "Nov. 2023 - Févr. 2024",
+    date: "Nov. 2023 - Fév. 2024",
     points: [
-      "Initiation à .NET 6(.NET 6).",
-      "Programmation Orientée Objet en C#.",
-      "Conception UML / Méthode Merise (MLD, MCD, MPD).",
-      "SQL / BackEnd REST en ASP. Net Core (Minimal API, API, MVC, Entity Framework).",
-      "Base de donnée PostgreSQL.",
-      "Initiation aux bonnes pratiques / Test unitaire.",
+      "Développement backend avec .NET 6 et C#.",
+      "Modélisation et gestion de bases de données avec PostgreSQL et MERISE.",
+      "Conception d'API REST avec ASP.NET Core (MVC, Entity Framework).",
+      "Mise en place de tests unitaires et initiation aux bonnes pratiques de développement.",
     ],
   },
   {
@@ -227,9 +158,9 @@ const experiences = [
     icon: Huluette,
     iconAVIF: HuluetteAVIF,
     iconBg: "#E6DEDD",
-    date: "Oct. 2023 - Nov. 2023",
+    date: "Déc. 2023",
     points: [
-      "Conception et dévelopement en autonomie d'un site vitrine pour l'entreprise 'La Farandole'.",
+      "Conception et développement d’un site catalogue en React pour l’entreprise La Farandole.",
     ],
   },
   {
@@ -240,18 +171,18 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Sept. 2023 - Oct. 2023",
     points: [
-      "Élaboration d'interfaces web dynamiques au travers de JavaScript et de ses bibliothèques REACT et Redux.",
+      "Développement d’interfaces dynamiques avec JavaScript, React et Redux.",
     ],
   },
   {
-    title: "Formation - Autodidacte",
-    company_name: "OpenClassrooms / Codacademy",
+    title: "Formation Autodidacte - Développement Web",
+    company_name: "OpenClassrooms / Codecademy",
     icon: openclassrooms,
     iconAVIF: openclassroomsAVIF,
     iconBg: "#E6DEDD",
     date: "Mai 2023 - Août 2023",
     points: [
-      "Initiation à la programmation au travers d'HTML5, CSS3, JavaScript.",
+      "Apprentissage des bases du développement web : HTML5, CSS3, JavaScript.",
     ],
   },
   {
@@ -262,31 +193,29 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sept. 2021 - Avril 2023",
     points: [
-      "Process de vente (observation, écoute).",
-      "Travail d'équipe.",
-      "Encaissement.",
-      "Gestion de stock.",
-      "Ouverture et clotûre du magasin.",
+      "Gestion des ventes et relation client.",
+      "Travail en équipe et gestion de stock.",
+      "Encaissement et suivi des opérations de caisse.",
     ],
   },
   {
     title:
-      " M1 Spécialité European Affairs + Licence de droit, économie et gestion mention science politique",
+      "M1 Spécialité European Affairs + Licence de Droit, Économie et Gestion - Science Politique",
     company_name: "Université de Lille",
     icon: Universite_Lille,
     iconAVIF: Universite_LilleAVIF,
     iconBg: "#E6DEDD",
-    date: "Sept. 2016 - Janv. 2021",
+    date: "Sept. 2016 - Août 2020",
     points: [
-      "Réalisation d'un mémoire sur le processus de création d'un chantier public autour de la vente d'armes françaises dans le cadre du conflit Yémenite.",
-      "Gestion de projet.",
+      "Rédaction d’un mémoire sur les enjeux politiques et stratégiques de la vente d’armes françaises dans le cadre du conflit yéménite.",
+      "Gestion de projet et analyse de politiques publiques.",
       "Droit administratif, pénal, international et européen.",
-      "Politiques publiques.",
-      "Géopolitique.",
-      "Pratique de l'anglais niveau universitaire.",
+      "Maîtrise de l’anglais à un niveau académique.",
     ],
   },
 ];
+
+
 
 const projects = [
   {
