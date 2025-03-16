@@ -18,6 +18,7 @@ import {
   Universite_Lille,
   centrakor,
   Huluette,
+  air,
   openclassrooms,
   simplon,
   Universite_LilleAVIF,
@@ -29,13 +30,13 @@ import {
   LaFarandole,
   ShopTendance,
   MeteoProject,
-  UserExplorer,
+  BotOnboarding,
   PokedexProject,
   LaBonneAubergeAVIF,
   LaFarandoleAVIF,
   ShopTendanceAVIF,
   MeteoProjectAVIF,
-  UserExplorerAVIF,
+  BotOnboardingAVIF,
   PokedexProjectAVIF,
 } from "../assets";
 
@@ -110,6 +111,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Stage - Concepteur développeur d'applications",
+    company_name: "Association A.I.R.",
+    icon: air,
+    iconBg: "#FFF",
+    date: "Mars 2025 - Juin 2025",
+    points: [
+      "Conception et développement d'un site vitrine pour l'association.",
+      "Conception et développement d'une site web avec un back office pour la gestion de la boutique solidaire Nouvoulook",
+      "Conception et développement d'une application web pour le suivi de leurs apprenants FLE.",
+    ],
+  },
   {
     title: "Formation Autodidacte - Data Science & Machine Learning",
     company_name: "OpenClassrooms / Coursera",
@@ -219,6 +232,32 @@ const experiences = [
 
 const projects = [
   {
+    name: "Bot onboarding",
+    description:
+      "Projet réalisé en groupe pendant ma formation de concepteur développeur d'applications chez Simplon. L'objectif est de concevoir un bot Discord pour automatiser la création des promotions et l’authentification des nouveaux membres sur le serveur Simplon Hauts-de-France.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "css-text",
+      },
+      {
+        name: "NestJS",
+        color: "angular-text",
+      },
+      {
+        name: "TypeORM",
+        color: "html-text",
+      },
+      {
+        name: "PostgreSQL",
+        color: "tailwind-text",
+      },
+    ],
+    image: BotOnboarding,
+    imageAVIF: BotOnboardingAVIF,
+    source_code_link: "https://github.com/EnguerranSGG/bot-discord-onboarding",
+  },
+  {
     name: "La Bonne Auberge",
     description:
       "Site réalisé en groupe pendant ma formation de développeur .NET. Il nous a été demandé de créer un site de restaurant en ASP. Net Core MVC avec un système de réservation, d'avis et un backoffice. Un lien vers le site est disponible sur mon Github.",
@@ -324,29 +363,7 @@ const projects = [
     image: MeteoProject,
     imageAVIF: MeteoProjectAVIF,
     source_code_link: "https://github.com/EnguerranSGG/MeteoConnect_Project",
-  },
-  {
-    name: "UserEXplorer",
-    description:
-      "Site réalisé pendant ma formation de développeur Front-end chez Simplon. L'objectif était de concevoir une interface consommant les données d'une API REST pour lister les employés d'une entreprise fictive. Un lien vers le site est disponible sur mon Github.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "js-text",
-      },
-      {
-        name: "html",
-        color: "html-text",
-      },
-      {
-        name: "css",
-        color: "css-text",
-      },
-    ],
-    image: UserExplorer,
-    imageAVIF: UserExplorerAVIF,
-    source_code_link: "https://github.com/EnguerranSGG/userExplorer_Project",
-  },
+  }
 ];
 
 export { technologies, experiences, projects };
