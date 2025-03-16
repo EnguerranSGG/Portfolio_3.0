@@ -27,6 +27,7 @@ import centrakor from "./company/Centrakor.png";
 import openclassrooms from "./company/Openclassrooms.png";
 import simplon from "./company/Simplon.png";
 import Huluette from "./company/Huluette.png";
+import air from "./company/air-asso.png";
 
 import Universite_LilleAVIF from "./company/Universite_Lille.avif";
 import centrakorAVIF from "./company/Centrakor.avif";
@@ -39,7 +40,7 @@ import LaFarandole from "./project/LaFarandole.png";
 import Portfolio from "./project/Portfolio.png";
 import MeteoProject from "./project/meteo_project.png";
 import ShopTendance from "./project/shop_tendance.png";
-import UserExplorer from "./project/userExplorer.png";
+import BotOnboarding from "./project/bot-onboarding.png";
 import PokedexProject from "./project/PokedexProject.png";
 
 import LaBonneAubergeAVIF from "./project/LaBonneAuberge.avif";
@@ -47,7 +48,7 @@ import LaFarandoleAVIF from "./project/LaFarandole.avif";
 import PortfolioAVIF from "./project/Portfolio.avif";
 import MeteoProjectAVIF from "./project/meteo_project.avif";
 import ShopTendanceAVIF from "./project/shop_tendance.avif";
-import UserExplorerAVIF from "./project/userExplorer.avif";
+import BotOnboardingAVIF from "./project/bot-onboarding.avif";
 import PokedexProjectAVIF from "./project/PokedexProject.avif";
 
 import Lovecraft from "./passion/lovecraft_cthulhu.jpg";
@@ -87,6 +88,7 @@ export {
   openclassrooms,
   simplon,
   Huluette,
+  air,
   Universite_LilleAVIF,
   centrakorAVIF,
   openclassroomsAVIF,
@@ -97,14 +99,14 @@ export {
   Portfolio,
   MeteoProject,
   ShopTendance,
-  UserExplorer,
+  BotOnboarding,
   PokedexProject,
   LaBonneAubergeAVIF,
   LaFarandoleAVIF,
   PortfolioAVIF,
   MeteoProjectAVIF,
   ShopTendanceAVIF,
-  UserExplorerAVIF,
+  BotOnboardingAVIF,
   PokedexProjectAVIF,
   Lovecraft,
   EldenTree,
