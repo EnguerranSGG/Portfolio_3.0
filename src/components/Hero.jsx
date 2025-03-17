@@ -20,7 +20,7 @@ const Hero = () => {
               </h1>
             </div>
             <p>
-              Développeur en transition vers l’intelligence artificielle et la data science.
+              Développeur en transition vers la machine learning et la data science.
             </p>
           </div>
         </div>

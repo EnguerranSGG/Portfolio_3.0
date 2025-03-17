@@ -1,47 +1,111 @@
-import React from 'react'
-import { motion } from 'framer-motion';
-import { fadeIn, textVariant } from '../utils/motion';
-
-import { SectionWrapper } from '../hoc';
+import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()} id='about'>
-        <p className='intro_sub_title'>
-          Introduction
-        </p>
-        <h2 className='intro_title'>
-          À propos de moi...
-        </h2>
+      <motion.div variants={textVariant()} id="about">
+        <p className="intro_sub_title">Introduction</p>
+        <h2 className="intro_title">À propos de moi...</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='intro_description'>
-      Issu d’une formation en science politique spécialisée dans la conduite de projets européens, j’ai décidé il y a deux ans de me reconvertir dans le développement informatique. Ce choix est né du désir de travailler dans un domaine où logique, créativité et innovation se rencontrent. Après une première initiation autodidacte au HTML et CSS, j’ai rapidement élargi mes compétences en intégrant une formation intensive chez Simplon, où j’ai découvert la programmation back-end et front-end à travers divers langages, librairies et frameworks. <br/><br/>
+      {/* 🟢 Section 1 : Transition vers le numérique */}
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className="intro_description">
+        Ancien étudiant en sciences politiques spécialisé dans la conduite de
+        projets européens, j’ai décidé il y a deux ans de me réorienter vers le
+        développement informatique. D’abord séduit par cette capacité à matérialiser
+        des idées en solutions concrètes et utiles, je l’ai été encore davantage
+        par la rencontre stimulante entre le monde des idées et la réalité
+        technique, exigeant ingéniosité et créativité. Curieux et autodidacte,
+        j’ai commencé mon apprentissage avec HTML et CSS avant d’intégrer une
+        formation intensive chez Simplon afin de structurer mon apprentissage et
+        monter en compétences.
+        <br />
+        <br />
       </motion.p>
 
-      <motion.div variants={fadeIn("", "", 0.1, 1)} className='academic'>
-        <div className='academic_line' />
-        <h3 className='academic_title'>
-        Un apprentissage structuré et professionnalisant
+      {/* 🟢 Section 2 : Débuts chez Simplon & stage Farandole */}
+      <motion.div variants={fadeIn("", "", 0.1, 1)} className="academic">
+        <div className="academic_line" />
+        <h3 className="academic_title">
+          Une formation intensive et professionnalisante
         </h3>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='academic_description'>
-      Au fil de mon parcours, j’ai consolidé mes connaissances en conception de solutions numériques et en gestion de bases de données. Mon expérience en développement s’est enrichie au travers de plusieurs projets concrets : création d’un site vitrine en React lors de mon premier stage, développement d’une application de gestion en .NET, et participation à un projet collaboratif visant à automatiser la gestion d’un serveur Discord. J’ai également été sensibilisé à la philosophie DevOps, à la conteneurisation avec Docker et aux pipelines CI/CD.
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="academic_description"
+      >
+        Chez Simplon, j’ai acquis une solide base technique en développement
+        web. J’ai d’abord été formé au front-end avec JavaScript, React et la
+        gestion d’API, avant de me familiariser avec la programmation orientée
+        objet, le langage UML, la méthodologie Kanban et la gestion de bases de
+        données durant une formation orienté back-end. Ces connaissances ont été
+        mises en pratique lors de plusieurs projets concrets, notamment la
+        réalisation d’un site vitrine pour l’entreprise "La Farandole" lors de
+        mon premier stage, ainsi que le développement d’un site de restaurant
+        fictif en équipe.
       </motion.p>
 
-      <motion.div variants={fadeIn("", "", 0.1, 1)} className='active'>
-        <h3 className='active_title'>
-          Vers l'intelligence artificielle...
+      {/* 🟢 Section 3 : Formation CDA et stage chez AIR */}
+      <motion.div variants={fadeIn("", "", 0.1, 1)} className="active">
+        <h3 className="active_title">
+          Approfondissement et mise en application
         </h3>
-        <div className='active_line' />
+        <div className="active_line" />
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='active_description'>
-      Aujourd’hui, je me consacre pleinement à l’apprentissage de la data science, de l’algèbre linéaire et des fondamentaux de l’intelligence artificielle, avec pour objectif de devenir Machine Learning Engineer. Depuis longtemps, l’IA me fascine, non seulement par son potentiel à transformer nos sociétés, mais aussi par les défis techniques et éthiques qu’elle soulève. Convaincu que nous sommes à l’aube d’une révolution où la donnée et l’apprentissage automatique joueront un rôle central, je souhaite approfondir mon expertise et contribuer activement à cette dynamique.<br/><br/>Dans cette optique, je suis à la recherche d’une alternance pour la rentrée 2025, afin de perfectionner mes compétences, évoluer dans un cadre professionnel stimulant et participer à des projets d’innovation en intelligence artificielle.      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="active_description"
+      >
+        Ensuite, dans le cadre de ma formation de Concepteur Développeur
+        d’Applications, j’ai renforcé mes compétences en conception logicielle,
+        sécurité applicative et DevOps (Docker, GitHub Actions, Linux). Ce
+        parcours s’est concrétisé par un projet collaboratif visant à
+        automatiser la gestion du serveur Discord régional de Simplon
+        Hauts-de-France grâce à plusieurs bots. <br />
+        <br />
+        Actuellement, je poursuis mon apprentissage au sein de
+        <strong> l’association A.I.R. </strong> (Accueil Insertion Rencontre) où
+        je participe au développement d’un site vitrine ainsi que de deux
+        applications : l’une dédiée à la gestion d’une boutique solidaire et
+        l’autre au suivi des apprenants en Français Langue Étrangère. Cette
+        expérience me permet d’affiner ma méthodologie et de travailler sur des
+        projets à impact social tout en consolidant mes compétences techniques.
+      </motion.p>
+
+      {/* 🟢 Section 4 : Spécialisation en IA */}
+      <motion.div variants={fadeIn("", "", 0.1, 1)} className="academic">
+        <div className="academic_line" />
+        <h3 className="academic_title">Vers l'intelligence artificielle...</h3>
+      </motion.div>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="active_description"
+      >
+        Désormais, mon ambition est de me spécialiser dans le Machine Learning.
+        D’aussi loin que je me souvienne et bien avant que je la regarde d’un
+        point de vue technique, j’ai toujours considéré l’intelligence
+        artificielle comme un domaine passionnant. Sur les bancs de l’université
+        déjà je croyais en son potentiel, en effet il est indéniable que nos
+        sociétés sont appelées à se refonder autour d’elle. Personnellement, je
+        souhaite aujourd'hui devenir Machine Learning Engineer, particulièrement
+        dans l'industrie du jeu vidéo, secteur idéal selon moi pour concevoir
+        des expériences innovantes et immersives. <br />
+        <br />
+        Je suis donc à la recherche d’une alternance dès la rentrée
+        2025 pour perfectionner mes compétences et évoluer dans un cadre
+        professionnel et académique stimulant. Mes différentes expériences m’ont
+        appris l’importance d’une conception rigoureuse, du découpage des tâches
+        en équipe et surtout la valeur de l’expérimentation sans crainte de
+        l’échec.
+      </motion.p>
     </>
-  )
-}
+  );
+};
 
 export default SectionWrapper(About, "about");
