@@ -1,8 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Tilt } from 'react-tilt'
 
-import { github } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
@@ -18,15 +16,10 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="projectcard" id='projects'>
-      <Tilt
-        option={{ max: 45, scale: 1, speed: 450 }}
-        className="projectcard_container">
+      <div className="projectcard_container" onClick={() => window.open(source_code_link, "_blank")}>
         <div className="projectcard_bg">
           <img src={imageAVIF} onError={e => e.currentTarget.src = `${image}`} alt={name} className="projectcard_image" />
           <div className="projectcard_content">
-            <div onClick={() => window.open(source_code_link, "_blank")} className='projectcard_link'>
-              <img src={github} alt="github" className="projectcard_icon" />
-            </div>
           </div>
         </div>
         <div className="projectcard_info">
@@ -40,7 +33,7 @@ const ProjectCard = ({
             ))}
           </div>
         </div>
-      </Tilt>
+      </div>
     </motion.div>
   )
 }
